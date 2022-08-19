@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: ENDRE4MZ-PROTO_SettingsManager
   m_EditorClassIdentifier: 
   separateEditorSaveFiles: 0
-  saveFileName: 
+  saveFileName: ENDRE4MZ-PROTO
   saveTimeDisplay: 0
   customSaveFormat: MMMM dd, yyyy
   takeSaveScreenshots: 0
