@@ -14,10 +14,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cursorRendering: 0
   uiCursorPrefab: {fileID: 1233823316936846, guid: 4f08b0bb4ab744221bb2bad0ab4cd341, type: 3}
-  cursorDisplay: 0
+  cursorDisplay: 2
   allowMainCursor: 1
   lockSystemCursor: 1
-  keepCursorWithinScreen: 1
+  keepCursorWithinScreen: 0
   allowWalkCursor: 0
   syncWalkCursorWithInteraction: 0
   walkCursor_ID: 0
