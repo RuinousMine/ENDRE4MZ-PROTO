@@ -6,6 +6,15 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
+    path: Assets/Scenes/Start.unity
+    guid: 43aceddacf4544ad983cb2484219b4aa
+  - enabled: 1
     path: Assets/Scenes/Bedroom.unity
     guid: 2cda990e2423bbf4892e6590ba056729
+  - enabled: 1
+    path: Assets/Scenes/Desktop.unity
+    guid: 1d81a2387193a477e930f9f046ed0e1d
+  - enabled: 1
+    path: Assets/Scenes/Akihabara1.unity
+    guid: 7afdedbfd48ec44e095aaa5e10b2fe78
   m_configObjects: {}

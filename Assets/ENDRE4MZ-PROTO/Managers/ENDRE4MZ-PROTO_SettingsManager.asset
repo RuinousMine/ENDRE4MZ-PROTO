@@ -76,7 +76,7 @@ MonoBehaviour:
   hideLockedCursor: 0
   disableFreeAimWhenDragging: 0
   disableFreeAimWhenDraggingPickUp: 0
-  runConversationsWithKeys: 0
+  runConversationsWithKeys: 1
   clickUpInteractions: 0
   defaultMouseClicks: 1
   allowGameplayDuringConversations: 0
@@ -113,10 +113,10 @@ MonoBehaviour:
   navMeshSearchDirection: 1
   ignoreOffScreenNavMesh: 1
   doubleClickMovement: 0
-  magnitudeAffectsDirect: 0
+  magnitudeAffectsDirect: 1
   directTurnsInstantly: 0
   stopTurningWhenReleaseInput: 0
-  disableMovementWhenInterationMenusAreOpen: 0
+  disableMovementWhenInterationMenusAreOpen: 1
   directMovementType: 0
   limitDirectMovement: 0
   cameraLockSnapAngleThreshold: 5
@@ -155,19 +155,19 @@ MonoBehaviour:
   maxAspectRatio: 2.39
   renderBorderCamera: 1
   landscapeModeOnly: 1
-  cameraPerspective: 2
+  cameraPerspective: 0
   cacheCameraMain: 0
   linearColorTextures: 0
   movingTurning: 3
-  hotspotDetection: 0
+  hotspotDetection: 1
   closeInteractionMenusIfPlayerLeavesVicinity: 0
   placeDistantHotspotsOnSeparateLayer: 1
   hotspotsInVicinity: 0
-  hotspotIconDisplay: 0
+  hotspotIconDisplay: 2
   hotspotIcon: 0
   hotspotIconTexture: {fileID: 0}
   hotspotIconGraphic:
-    texture: {fileID: 0}
+    texture: {fileID: 2800000, guid: 9f0dba66a104541d5af233a95c3a9dc3, type: 3}
     isAnimated: 0
     numFrames: 1
     numRows: 1
