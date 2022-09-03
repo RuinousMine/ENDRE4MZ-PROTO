@@ -15,8 +15,7 @@ public class RandomText : MonoBehaviour
     }
 
     // Update is called once per frame
-    public void ClickTheCharacter()
-    {
+    public void ClickTheCharacter(){
         randomNumber = Random.Range(1, characterTexts.Length + 1);
         spriteRenderer.sprite = characterTexts[randomNumber -1];
         print(randomNumber);
