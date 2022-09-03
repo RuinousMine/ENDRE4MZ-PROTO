@@ -19,6 +19,6 @@ public class StartMenu : MonoBehaviour
 
     public void StartGame()
     {
-        SceneManager.LoadScene("Bedroom");
+        SceneManager.LoadScene("Desktop");
     }
 }
