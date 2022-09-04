@@ -2256,7 +2256,7 @@ MonoBehaviour:
   maxAutoWidthFactor: 0.5
   relativeRect:
     serializedVersion: 2
-    x: 6.4
+    x: 6.3999996
     y: 91.200005
     width: 204.8
     height: 36
@@ -3337,7 +3337,7 @@ MonoBehaviour:
   maxAutoWidthFactor: 0.5
   relativeRect:
     serializedVersion: 2
-    x: 6.4
+    x: 6.3999996
     y: 48.800003
     width: 204.8
     height: 36
@@ -3459,6 +3459,7 @@ MonoBehaviour:
   - {fileID: -8377557039717098706}
   - {fileID: -3686201338890695707}
   - {fileID: -259370988927057927}
+  - {fileID: 5616357800925699520}
   globalDepth: 0
   pauseTexture: {fileID: 0}
   scaleTextEffects: 0
@@ -5162,6 +5163,108 @@ MonoBehaviour:
     width: 657.304
     height: 297.80093
   showInFilter: 1
+--- !u!114 &5616357800925699520
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a5f455f0e4a864975bf60bc153fbe20d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  menuSource: 0
+  canvas: {fileID: 0}
+  canvasAssetKey: 
+  canvasID: 0
+  rectTransform: {fileID: 0}
+  rectTransformID: 0
+  uiTransitionType: 0
+  uiPositionType: 0
+  _isLocked: 1
+  id: 16
+  title: iPod
+  manualSize: {x: 50.000008, y: 7.0555563}
+  positionType: 0
+  manualPosition: {x: 640, y: 360}
+  positionSmoothing: 0
+  alignment: 0
+  toggleKey: iPod
+  ignoreMouseClicks: 0
+  pauseWhenEnabled: 0
+  showWhenPaused: 0
+  canClickInCutscene: 0
+  enabledOnStart: 0
+  actionListOnTurnOn: {fileID: 11400000, guid: a2d38340f67084fb295e76a2fc43eddd, type: 2}
+  actionListOnTurnOff: {fileID: 0}
+  updateWhenFadeOut: 1
+  hideDuringSaveScreenshots: 1
+  fitWithinScreen: 1
+  backgroundTexture: {fileID: 2800000, guid: a4e91623cfdf0468a8c53acec6c30959, type: 3}
+  visibleElements:
+  - {fileID: 7573441515481867001}
+  transitionProgress: 0
+  appearType: 3
+  speechMenuType: 0
+  speechMenuLimit: 0
+  limitToCharacters: 
+  forceSubtitles: 0
+  moveWithCharacter: 1
+  selected_element: {fileID: 0}
+  selected_slot: 0
+  autoSelectFirstVisibleElement: 0
+  firstSelectedElement: 
+  elements:
+  - {fileID: 7573441515481867001}
+  spacing: 0.5
+  sizeType: 0
+  autoSizeEveryFrame: 0
+  orientation: 1
+  transitionType: 4
+  panDirection: 0
+  panMovement: 0
+  timeCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    - serializedVersion: 3
+      time: 1
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panDistance: 0.5
+  fadeSpeed: 0
+  zoomAnchor: 4
+  zoomElements: 0
+  oneMenuPerSpeech: 0
+  speechProximityLimit: 0
+  speechProximityDistance: 10
+  deleteUIWhenTurnOff: 0
+  biggestElementSize: {x: 633.60004, y: 44.4}
+  rect:
+    serializedVersion: 2
+    x: 319.99997
+    y: 334.6
+    width: 640.00006
+    height: 50.800003
+  showInFilter: 1
 --- !u!114 &5704244507396694673
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -5382,7 +5485,7 @@ MonoBehaviour:
   maxAutoWidthFactor: 0.5
   relativeRect:
     serializedVersion: 2
-    x: 6.4
+    x: 6.3999996
     y: 176
     width: 204.8
     height: 36
@@ -5571,7 +5674,7 @@ MonoBehaviour:
   maxAutoWidthFactor: 0.5
   relativeRect:
     serializedVersion: 2
-    x: 6.4
+    x: 6.3999996
     y: 133.6
     width: 204.8
     height: 36
@@ -5702,8 +5805,8 @@ MonoBehaviour:
   maxAutoWidthFactor: 0.5
   relativeRect:
     serializedVersion: 2
-    x: 6.4
-    y: 6.4
+    x: 6.3999996
+    y: 6.3999996
     width: 204.8
     height: 36
   relativePosition: {x: 0, y: 0}
@@ -6152,6 +6255,76 @@ MonoBehaviour:
   switchMenuTitle: 
   inventoryBoxTitle: PlayerInventory
   shiftInventory: 1
+  shiftAmount: 1
+  onlyShowWhenEffective: 0
+  loopJournal: 0
+  inputAxis: 
+  simulateInput: 0
+  simulateValue: 1
+  clickTexture: {fileID: 0}
+  allowContinuousClick: 0
+  uiSelectableHideStyle: 0
+--- !u!114 &7573441515481867001
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 64747f67d47cb4e04a88bea43b7c1cfd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ID: 0
+  title: Music1
+  slotSize: {x: 49, y: 5.2777777}
+  sizeType: 1
+  positionType: 2
+  slotSpacing: 0
+  lineID: -1
+  alternativeInputButton: 
+  font: {fileID: 12800000, guid: 1a57e7a6fabcf46848ff00e7d4992481, type: 3}
+  fontScaleFactor: 3
+  fontColor: {r: 1, g: 1, b: 1, a: 1}
+  fontHighlightColor: {r: 1, g: 1, b: 1, a: 1}
+  isVisible: 1
+  isClickable: 1
+  orientation: 1
+  gridWidth: 3
+  backgroundTexture: {fileID: 0}
+  singleSlotBackgrounds: 0
+  highlightTexture: {fileID: 0}
+  hoverSound: {fileID: 0}
+  clickSound: {fileID: 0}
+  changeCursor: 0
+  cursorID: 0
+  linkedUiID: 0
+  maxAutoWidthFactor: 0.5
+  relativeRect:
+    serializedVersion: 2
+    x: 6.3999996
+    y: 6.3999996
+    width: 627.2
+    height: 38
+  relativePosition: {x: 0, y: 0}
+  numSlots: 1
+  uiButton: {fileID: 0}
+  uiPointerState: 0
+  _label: Music1
+  hotspotLabel: 
+  hotspotLabelID: -1
+  anchor: 3
+  textEffects: 0
+  outlineSize: 2
+  buttonClickType: 3
+  actionList: {fileID: 11400000, guid: 5de92d35f895d443b96ea66dfbdc9d59, type: 2}
+  parameterID: -1
+  parameterValue: 0
+  doFade: 0
+  switchMenuTitle: 
+  inventoryBoxTitle: 
+  shiftInventory: 0
   shiftAmount: 1
   onlyShowWhenEffective: 0
   loopJournal: 0
@@ -7088,7 +7261,7 @@ MonoBehaviour:
   _isLocked: 0
   id: 12
   title: Pause
-  manualSize: {x: 17, y: 35.11111}
+  manualSize: {x: 17, y: 35.111107}
   positionType: 0
   manualPosition: {x: 640, y: 360}
   positionSmoothing: 0
@@ -7217,7 +7390,7 @@ MonoBehaviour:
   maxAutoWidthFactor: 0.5
   relativeRect:
     serializedVersion: 2
-    x: 6.4
+    x: 6.3999996
     y: 218.4
     width: 75
     height: 27.999998
