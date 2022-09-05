@@ -211,6 +211,14 @@ MonoBehaviour:
   playAmbienceWhilePaused: 0
   musicStorages:
   - ID: 0
+    audioClip: {fileID: 8300000, guid: de0134abb14ce4b30bd02666b96358aa, type: 3}
+    relativeVolume: 1
+    overrideMixerGroup: {fileID: 0}
+  - ID: 1
+    audioClip: {fileID: 8300000, guid: b2abe27c2316d4f219220ce9ec59bb9d, type: 3}
+    relativeVolume: 1
+    overrideMixerGroup: {fileID: 0}
+  - ID: 2
     audioClip: {fileID: 0}
     relativeVolume: 1
     overrideMixerGroup: {fileID: 0}

@@ -10,7 +10,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 3cc1f751990d444ef9e1381090933b8b, type: 3}
-  m_Name: iPod_Music1_OnClick
+  m_Name: iPod_Music2_OnClick
   m_EditorClassIdentifier: 
   actions:
   - {fileID: 5466700986943637978}
@@ -64,7 +64,7 @@ MonoBehaviour:
   overrideColor: {r: 1, g: 1, b: 1, a: 1}
   showOutputSockets: 1
   parentActionListInEditor: {fileID: 0}
-  trackID: 0
+  trackID: 1
   trackIDParameterID: -1
   fadeTime: 0
   fadeTimeParameterID: -1
