@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   separateEditorSaveFiles: 0
   saveFileName: ENDRE4MZ-PROTO
-  saveTimeDisplay: 0
+  saveTimeDisplay: 1
   customSaveFormat: MMMM dd, yyyy
   takeSaveScreenshots: 0
   saveScreenshots: 0
@@ -33,7 +33,29 @@ MonoBehaviour:
     defaultAutosaveLabel: Autosave
     autosaveLabelID: -1
   referenceScenesInSave: 0
-  sceneAttributes: []
+  sceneAttributes:
+  - label: Property 1
+    id: 0
+    type: 0
+    val: 0
+    floatVal: 0
+    textVal: 
+    gameObjectVal: {fileID: 0}
+    gameObjectSaveReferences: 1
+    objectVal: {fileID: 0}
+    popUps: []
+    vector3Val: {x: 0, y: 0, z: 0}
+    link: 0
+    pmVar: 
+    updateLinkOnStart: 0
+    canTranslate: 1
+    popUpID: 0
+    textValLineID: -1
+    popUpsLineID: -1
+    description: 
+    showInFilter: 0
+    limitToCategories: 0
+    categoryIDs: 
   actionListOnStart: {fileID: 0}
   blackOutWhenSkipping: 0
   playerSwitching: 0
@@ -212,11 +234,11 @@ MonoBehaviour:
   musicStorages:
   - ID: 0
     audioClip: {fileID: 8300000, guid: de0134abb14ce4b30bd02666b96358aa, type: 3}
-    relativeVolume: 1
+    relativeVolume: 0.25
     overrideMixerGroup: {fileID: 0}
   - ID: 1
     audioClip: {fileID: 8300000, guid: b2abe27c2316d4f219220ce9ec59bb9d, type: 3}
-    relativeVolume: 1
+    relativeVolume: 0.26
     overrideMixerGroup: {fileID: 0}
   - ID: 2
     audioClip: {fileID: 0}
