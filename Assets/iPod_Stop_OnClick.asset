@@ -10,10 +10,10 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 3cc1f751990d444ef9e1381090933b8b, type: 3}
-  m_Name: iPod_Music2_OnClick
+  m_Name: iPod_Stop_OnClick
   m_EditorClassIdentifier: 
   actions:
-  - {fileID: 5466700986943637978}
+  - {fileID: 1684161035087405482}
   isSkippable: 1
   actionListType: 0
   unfreezePauseMenus: 1
@@ -24,7 +24,7 @@ MonoBehaviour:
   parameters: []
   tagID: 0
   backupData: []
---- !u!114 &5466700986943637978
+--- !u!114 &1684161035087405482
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
@@ -33,7 +33,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 387c24c00c16b447397110e033cf59f9, type: 3}
+  m_Script: {fileID: 11500000, guid: 8122ceaf185ff4b929c2329cb3c5c431, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   id: 0
@@ -48,7 +48,7 @@ MonoBehaviour:
   linkedAsset: {fileID: 0}
   endings:
   - resultAction: 0
-    skipAction: 1
+    skipAction: 0
     skipActionActual: {fileID: 0}
     linkedCutscene: {fileID: 0}
     linkedAsset: {fileID: 0}
@@ -60,18 +60,18 @@ MonoBehaviour:
     x: 14
     y: 14
     width: 300
-    height: 233
+    height: 160
   overrideColor: {r: 1, g: 1, b: 1, a: 1}
   showOutputSockets: 1
   parentActionListInEditor: {fileID: 0}
-  trackID: 1
-  trackIDParameterID: -1
+  constantID: 29472
+  parameterID: -1
+  soundObject: {fileID: 0}
+  audioClip: {fileID: 0}
+  audioClipParameterID: -1
   fadeTime: 0
-  fadeTimeParameterID: -1
-  loop: 1
-  isQueued: 0
-  resumeFromStart: 1
-  resumeIfPlayedBefore: 0
-  willWaitComplete: 0
-  musicAction: 0
-  loopingOverlapTime: 0
+  loop: 0
+  ignoreIfPlaying: 0
+  soundAction: 3
+  affectChildren: 1
+  autoEndOtherMusicWhenPlayed: 1
