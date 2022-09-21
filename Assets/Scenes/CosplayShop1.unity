@@ -662,7 +662,7 @@ Camera:
   m_GameObject: {fileID: 519420028}
   m_Enabled: 1
   serializedVersion: 2
-  m_ClearFlags: 2
+  m_ClearFlags: 1
   m_BackGroundColor: {r: 0.19215687, g: 0.3019608, b: 0.4745098, a: 0}
   m_projectionMatrixMode: 1
   m_GateFitMode: 2
@@ -3951,7 +3951,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8455704120849695619}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 360, z: -10}
+  m_LocalPosition: {x: 0, y: 0, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -3995,8 +3995,8 @@ Camera:
   m_FocalLength: 50
   m_NormalizedViewPortRect:
     serializedVersion: 2
-    x: 0
-    y: 0
+    x: 640
+    y: 360
     width: 1
     height: 1
   near clip plane: 0.3
@@ -4046,14 +4046,14 @@ MonoBehaviour:
   cursorInfluenceDuringCutscenes: 0
   cutsceneBehaviour: 0
   lockHorizontal: 0
-  lockVertical: 1
+  lockVertical: 0
   limitHorizontal: 1
-  limitVertical: 0
+  limitVertical: 1
   backgroundConstraint: {fileID: 167480724}
-  autoScaleToFitBackgroundConstraint: 0
+  autoScaleToFitBackgroundConstraint: 1
   constrainHorizontal: {x: 0, y: 0}
   constrainVertical: {x: 0, y: 0}
-  freedom: {x: 1.8, y: 0}
+  freedom: {x: 1.8, y: 1}
   dampSpeed: 100
   directionInfluence: {x: 0, y: 0}
   afterOffset: {x: 0, y: 0}
