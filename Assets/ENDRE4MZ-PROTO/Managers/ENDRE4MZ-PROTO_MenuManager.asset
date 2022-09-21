@@ -181,7 +181,7 @@ MonoBehaviour:
   clickSound: {fileID: 0}
   changeCursor: 0
   cursorID: 0
-  linkedUiID: 0
+  linkedUiID: 48426
   maxAutoWidthFactor: 0.5
   relativeRect:
     serializedVersion: 2
@@ -200,7 +200,7 @@ MonoBehaviour:
   textEffects: 0
   outlineSize: 2
   buttonClickType: 3
-  actionList: {fileID: 0}
+  actionList: {fileID: 11400000, guid: 411793f4141f946b5b9c9bc34775a562, type: 2}
   parameterID: -1
   parameterValue: 0
   doFade: 0
@@ -1536,7 +1536,7 @@ MonoBehaviour:
   clickSound: {fileID: 0}
   changeCursor: 0
   cursorID: 0
-  linkedUiID: 0
+  linkedUiID: 54508
   maxAutoWidthFactor: 0.5
   relativeRect:
     serializedVersion: 2
@@ -1555,7 +1555,7 @@ MonoBehaviour:
   textEffects: 0
   outlineSize: 2
   buttonClickType: 3
-  actionList: {fileID: 0}
+  actionList: {fileID: 11400000, guid: 5a03da4101bef448cadd9fe51698d74c, type: 2}
   parameterID: -1
   parameterValue: 0
   doFade: 0
@@ -1584,12 +1584,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   menuSource: 1
-  canvas: {fileID: 0}
+  canvas: {fileID: 5464565686832503928, guid: d8616919af9414508856e96950dd2926, type: 3}
   canvasAssetKey: 
   canvasID: 0
   rectTransform: {fileID: 0}
   rectTransformID: 0
-  uiTransitionType: 0
+  uiTransitionType: 1
   uiPositionType: 0
   _isLocked: 0
   id: 16
@@ -1605,7 +1605,7 @@ MonoBehaviour:
   showWhenPaused: 0
   canClickInCutscene: 0
   enabledOnStart: 0
-  actionListOnTurnOn: {fileID: 0}
+  actionListOnTurnOn: {fileID: 11400000, guid: 4962819bacbf8442fb5aabb6db6bdaf5, type: 2}
   actionListOnTurnOff: {fileID: 0}
   updateWhenFadeOut: 1
   hideDuringSaveScreenshots: 1
@@ -1660,7 +1660,7 @@ MonoBehaviour:
     m_PostInfinity: 2
     m_RotationOrder: 4
   panDistance: 0.5
-  fadeSpeed: 0
+  fadeSpeed: 0.21
   zoomAnchor: 4
   zoomElements: 0
   oneMenuPerSpeech: 0
