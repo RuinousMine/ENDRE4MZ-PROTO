@@ -58,7 +58,7 @@ MonoBehaviour:
     categoryIDs: 
   actionListOnStart: {fileID: 0}
   blackOutWhenSkipping: 0
-  playerSwitching: 0
+  playerSwitching: 1
   player: {fileID: 574679185029157733, guid: 69f7481e8d3744c3ca99f2a0d633db1a, type: 3}
   players:
   - playerOb: {fileID: 574679185029157733, guid: 69f7481e8d3744c3ca99f2a0d633db1a, type: 3}
