@@ -160,7 +160,7 @@ MonoBehaviour:
     isUpgraded: 1
   angleSnapping: 0
   walkSpeedScale: 7
-  runSpeedScale: 11
+  runSpeedScale: 13
   reverseSpeedFactor: 1
   turnSpeed: 100
   acceleration: 6
