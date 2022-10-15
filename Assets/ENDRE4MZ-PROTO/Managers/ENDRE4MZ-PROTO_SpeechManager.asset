@@ -22,7 +22,7 @@ MonoBehaviour:
   waitTimeOffset: 0
   displayForever: 1
   displayNarrationForever: 0
-  playAnimationForever: 1
+  playAnimationForever: 0
   canSkipWithMouseClicks: 1
   minimumDisplayTime: 1
   screenTimeFactor: 0.1
@@ -50,7 +50,7 @@ MonoBehaviour:
   placeAudioInSubfolders: 0
   separateLines: 0
   separateLinePause: 1
-  resetExpressionsEachLine: 1
+  resetExpressionsEachLine: 0
   lines: []
   languages: []
   languageIsRightToLeft: 

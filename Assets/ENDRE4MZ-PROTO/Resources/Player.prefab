@@ -28,7 +28,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 574679185029157734}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.31753114, y: 0.9752243, z: -0.027691107}
+  m_LocalPosition: {x: -0.35, y: 0.9752243, z: -0.027691107}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -160,7 +160,7 @@ MonoBehaviour:
     isUpgraded: 1
   angleSnapping: 0
   walkSpeedScale: 7
-  runSpeedScale: 13
+  runSpeedScale: 14
   reverseSpeedFactor: 1
   turnSpeed: 100
   acceleration: 6
@@ -218,9 +218,9 @@ CircleCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0.22233213}
+  m_Offset: {x: 0.1415497, y: 0.664675}
   serializedVersion: 2
-  m_Radius: 0.7223321
+  m_Radius: 1.2000626
 --- !u!50 &574679185029157735
 Rigidbody2D:
   serializedVersion: 4
@@ -241,7 +241,7 @@ Rigidbody2D:
   m_Interpolate: 1
   m_SleepingMode: 1
   m_CollisionDetection: 1
-  m_Constraints: 0
+  m_Constraints: 2
 --- !u!95 &698778798348775715
 Animator:
   serializedVersion: 4
