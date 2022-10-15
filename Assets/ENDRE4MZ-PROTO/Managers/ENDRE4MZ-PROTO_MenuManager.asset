@@ -595,7 +595,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ID: 1
   title: SubsLineLabel
-  slotSize: {x: 64, y: 27}
+  slotSize: {x: 71, y: 27}
   sizeType: 1
   positionType: 0
   slotSpacing: 0
@@ -622,7 +622,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 50.399998
-    width: 819.2
+    width: 908.8
     height: 194.4
   relativePosition: {x: 0, y: 0}
   numSlots: 1
@@ -4389,7 +4389,7 @@ MonoBehaviour:
   _isLocked: 0
   id: 9
   title: Subtitles
-  manualSize: {x: 64, y: 34}
+  manualSize: {x: 71, y: 34}
   positionType: 2
   manualPosition: {x: 39, y: 80}
   positionSmoothing: 0
@@ -4465,9 +4465,9 @@ MonoBehaviour:
   biggestElementSize: {x: 0, y: 0}
   rect:
     serializedVersion: 2
-    x: 89.600006
+    x: 44.799988
     y: 453.6
-    width: 819.19995
+    width: 908.8
     height: 244.8
   showInFilter: 1
 --- !u!114 &1767357485420469617
