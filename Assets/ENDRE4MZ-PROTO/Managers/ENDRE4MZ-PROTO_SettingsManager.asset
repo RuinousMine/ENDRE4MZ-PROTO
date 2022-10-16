@@ -241,11 +241,15 @@ MonoBehaviour:
     relativeVolume: 0.26
     overrideMixerGroup: {fileID: 0}
   - ID: 2
-    audioClip: {fileID: 0}
+    audioClip: {fileID: 8300000, guid: a30802a13e1fb4f6f82767e7d997d835, type: 3}
     relativeVolume: 1
     overrideMixerGroup: {fileID: 0}
-  ambienceStorages: []
-  loadAmbienceFadeTime: 0
+  ambienceStorages:
+  - ID: 0
+    audioClip: {fileID: 8300000, guid: a30802a13e1fb4f6f82767e7d997d835, type: 3}
+    relativeVolume: 1
+    overrideMixerGroup: {fileID: 0}
+  loadAmbienceFadeTime: 0.2
   crossfadeAmbienceWhenLoading: 0
   restartAmbienceTrackWhenLoading: 0
   loadMusicFadeTime: 0
@@ -262,7 +266,7 @@ MonoBehaviour:
   defaultLanguage: 0
   defaultVoiceLanguage: 0
   defaultShowSubtitles: 0
-  defaultSfxVolume: 0.9
+  defaultSfxVolume: 0.815
   defaultMusicVolume: 0.6
   defaultSpeechVolume: 1
   showDebugLogs: 0
