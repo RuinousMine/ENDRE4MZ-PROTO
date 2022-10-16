@@ -219,13 +219,13 @@ MonoBehaviour:
   navMeshLayer: NavMesh
   backgroundImageLayer: BackgroundImage
   deactivatedLayer: Ignore Raycast
-  useLoadingScreen: 0
+  useLoadingScreen: 1
   manualSceneActivation: 0
-  loadingSceneIs: 0
+  loadingSceneIs: 1
   loadScenesFromAddressable: 0
-  loadingSceneName: 
+  loadingSceneName: Loading
   loadingScene: 0
-  useAsyncLoading: 0
+  useAsyncLoading: 1
   loadingDelay: 0
   blackOutWhenInitialising: 1
   spawnPersistentEnginePrefab: 1
@@ -248,6 +248,14 @@ MonoBehaviour:
   - ID: 0
     audioClip: {fileID: 8300000, guid: a30802a13e1fb4f6f82767e7d997d835, type: 3}
     relativeVolume: 1
+    overrideMixerGroup: {fileID: 0}
+  - ID: 1
+    audioClip: {fileID: 8300000, guid: 134c32f4be0f040f3be671d8e3d14c90, type: 3}
+    relativeVolume: 0.3
+    overrideMixerGroup: {fileID: 0}
+  - ID: 2
+    audioClip: {fileID: 8300000, guid: 99cdae80d935c421fb6d40ef95c8e2b9, type: 3}
+    relativeVolume: 0.1
     overrideMixerGroup: {fileID: 0}
   loadAmbienceFadeTime: 0.2
   crossfadeAmbienceWhenLoading: 0
