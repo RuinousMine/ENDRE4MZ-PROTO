@@ -1045,13 +1045,13 @@ MonoBehaviour:
     x: 14
     y: 14
     width: 300
-    height: 253
+    height: 273
   overrideColor: {r: 1, g: 1, b: 1, a: 1}
   showOutputSockets: 1
   parentActionListInEditor: {fileID: 3315033190626224289}
   trackID: 3
   trackIDParameterID: -1
-  fadeTime: 0
+  fadeTime: 1
   fadeTimeParameterID: -1
   loop: 1
   isQueued: 0
@@ -2868,7 +2868,7 @@ MonoBehaviour:
   audioMixer: {fileID: 0}
   snapshot: {fileID: 8657241908385590198, guid: 1d5e31a61067147ffa4399e79a5a7ed3, type: 2}
   snapshotMixes: []
-  changeTime: 0.1
+  changeTime: 0.5
 --- !u!1 &1748275184
 GameObject:
   m_ObjectHideFlags: 0
