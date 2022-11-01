@@ -230,7 +230,7 @@ MonoBehaviour:
   blackOutWhenInitialising: 1
   spawnPersistentEnginePrefab: 1
   playMusicWhilePaused: 1
-  playAmbienceWhilePaused: 0
+  playAmbienceWhilePaused: 1
   musicStorages:
   - ID: 0
     audioClip: {fileID: 8300000, guid: de0134abb14ce4b30bd02666b96358aa, type: 3}
@@ -252,11 +252,15 @@ MonoBehaviour:
   - ID: 1
     audioClip: {fileID: 8300000, guid: 134c32f4be0f040f3be671d8e3d14c90, type: 3}
     relativeVolume: 0.3
-    overrideMixerGroup: {fileID: 0}
+    overrideMixerGroup: {fileID: 24300002, guid: aa0d56dce3c0a4f4a99b6fd8b2966772, type: 2}
   - ID: 2
     audioClip: {fileID: 8300000, guid: 99cdae80d935c421fb6d40ef95c8e2b9, type: 3}
     relativeVolume: 0.1
     overrideMixerGroup: {fileID: 0}
+  - ID: 3
+    audioClip: {fileID: 8300000, guid: ed8f694cea6274f598c73d7c32f97401, type: 3}
+    relativeVolume: 0.079
+    overrideMixerGroup: {fileID: -6651466684436704902, guid: 1d5e31a61067147ffa4399e79a5a7ed3, type: 2}
   loadAmbienceFadeTime: 0.2
   crossfadeAmbienceWhenLoading: 0
   restartAmbienceTrackWhenLoading: 0
@@ -264,9 +268,9 @@ MonoBehaviour:
   crossfadeMusicWhenLoading: 0
   restartMusicTrackWhenLoading: 0
   autoEndOtherMusicWhenPlayed: 1
-  volumeControl: 0
+  volumeControl: 1
   musicMixerGroup: {fileID: 0}
-  sfxMixerGroup: {fileID: 0}
+  sfxMixerGroup: {fileID: 24300002, guid: 9d1df19aea4734c148ea914ff2c5304b, type: 2}
   speechMixerGroup: {fileID: 0}
   musicAttentuationParameter: musicVolume
   sfxAttentuationParameter: sfxVolume
