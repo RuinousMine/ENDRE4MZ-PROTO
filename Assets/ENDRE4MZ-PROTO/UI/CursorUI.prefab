@@ -14,6 +14,7 @@ GameObject:
   - component: {fileID: 114489059107660172}
   - component: {fileID: 114987573115425000}
   - component: {fileID: 225406113921614056}
+  - component: {fileID: 7733131864189443974}
   m_Layer: 5
   m_Name: CursorUI
   m_TagString: Untagged
@@ -49,7 +50,7 @@ Canvas:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1233823316936846}
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 3
   m_RenderMode: 0
   m_Camera: {fileID: 0}
@@ -135,6 +136,21 @@ CanvasGroup:
   m_Interactable: 0
   m_BlocksRaycasts: 0
   m_IgnoreParentGroups: 0
+--- !u!114 &7733131864189443974
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1233823316936846}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f72e60470f1fa4fd1825cd67ce482cf6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  constantID: 72246
+  retainInPrefab: 1
+  autoManual: 0
 --- !u!1 &1651503236280956
 GameObject:
   m_ObjectHideFlags: 0
@@ -170,8 +186,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 30, y: 30}
+  m_AnchoredPosition: {x: 4.4475, y: -7.039}
+  m_SizeDelta: {x: 26.2739, y: 41.5834}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &222064296402437070
 CanvasRenderer:
@@ -201,7 +217,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Texture: {fileID: 0}
+  m_Texture: {fileID: 2800000, guid: 8617e6390fbb44c52abb28382e5aa3e2, type: 3}
   m_UVRect:
     serializedVersion: 2
     x: 0
