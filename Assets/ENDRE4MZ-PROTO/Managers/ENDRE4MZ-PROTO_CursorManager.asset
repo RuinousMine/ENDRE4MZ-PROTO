@@ -12,9 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b2cd11e06e7fc41a595e0cccca50dae3, type: 3}
   m_Name: ENDRE4MZ-PROTO_CursorManager
   m_EditorClassIdentifier: 
-  cursorRendering: 0
+  cursorRendering: 2
   uiCursorPrefab: {fileID: 1233823316936846, guid: 4f08b0bb4ab744221bb2bad0ab4cd341, type: 3}
-  cursorDisplay: 2
+  cursorDisplay: 0
   allowMainCursor: 1
   lockSystemCursor: 1
   keepCursorWithinScreen: 0
@@ -49,7 +49,7 @@ MonoBehaviour:
     frameSpeeds: []
     alwaysAnimate: 0
   pointerIcon:
-    texture: {fileID: 2800000, guid: 5c83780962ed843c0928648679746938, type: 3}
+    texture: {fileID: 2800000, guid: 8617e6390fbb44c52abb28382e5aa3e2, type: 3}
     isAnimated: 0
     numFrames: 1
     numRows: 1
@@ -100,7 +100,7 @@ MonoBehaviour:
     clickOffset: {x: 0, y: 0}
     frameSpeeds: []
     alwaysAnimate: 0
-  inventoryHandling: 0
+  inventoryHandling: 3
   hotspotPrefix1:
     label: Use
     lineID: -1
@@ -176,4 +176,4 @@ MonoBehaviour:
   lookUseCursorAction: 0
   lookCursor_ID: 2
   hideCursorWhenDraggingMoveables: 1
-  forceCursorInEditor: 0
+  forceCursorInEditor: 1

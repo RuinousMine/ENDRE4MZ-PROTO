@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: ENDRE4MZ-PROTO_SettingsManager
   m_EditorClassIdentifier: 
   separateEditorSaveFiles: 0
-  saveFileName: ENDRE4MZ-PROTO
+  saveFileName: ENDRE4MZPROTO
   saveTimeDisplay: 1
   customSaveFormat: MMMM dd, yyyy
   takeSaveScreenshots: 0
@@ -202,7 +202,7 @@ MonoBehaviour:
     frameSpeeds: []
     alwaysAnimate: 0
   highlightMaterialPropertyOverride: 
-  hotspotIconSize: 0.04
+  hotspotIconSize: 1.05
   playerFacesHotspots: 0
   onlyFaceHotspotOnSelect: 0
   scaleHighlightWithMouseProximity: 0
@@ -271,7 +271,7 @@ MonoBehaviour:
   volumeControl: 1
   musicMixerGroup: {fileID: 0}
   sfxMixerGroup: {fileID: 24300002, guid: 9d1df19aea4734c148ea914ff2c5304b, type: 2}
-  speechMixerGroup: {fileID: 0}
+  speechMixerGroup: {fileID: 24300002, guid: 946e0a6e0bc944b378b386262ae1873f, type: 2}
   musicAttentuationParameter: musicVolume
   sfxAttentuationParameter: sfxVolume
   speechAttentuationParameter: speechVolume
