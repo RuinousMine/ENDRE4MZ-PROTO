@@ -680,7 +680,7 @@ MonoBehaviour:
   chooseSceneBy: 1
   sceneNumber: 1
   sceneNumberParameterID: -1
-  sceneName: Club1
+  sceneName: CosplayShop
   sceneNameParameterID: -1
   assignScreenOverlay: 0
   onlyPreload: 0
@@ -1136,7 +1136,7 @@ GameObject:
   - component: {fileID: 547336250}
   - component: {fileID: 547336251}
   m_Layer: 0
-  m_Name: 'GoAnimate: Use'
+  m_Name: 'GoSC: Use'
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1875,7 +1875,7 @@ MonoBehaviour:
   showOutputSockets: 1
   parentActionListInEditor: {fileID: 547336251}
   listSource: 0
-  actionList: {fileID: 1352148934371625123}
+  actionList: {fileID: 1912558569}
   constantID: 0
   parameterID: -1
   invActionList: {fileID: 0}
@@ -2172,12 +2172,12 @@ MonoBehaviour:
   endings:
   - resultAction: 2
     skipAction: 1
-    skipActionActual: {fileID: 1681159545}
+    skipActionActual: {fileID: 320827850}
     linkedCutscene: {fileID: 0}
     linkedAsset: {fileID: 0}
   - resultAction: 2
     skipAction: 2
-    skipActionActual: {fileID: 706770582}
+    skipActionActual: {fileID: 418670936}
     linkedCutscene: {fileID: 0}
     linkedAsset: {fileID: 0}
   isEnabled: 1
@@ -3164,7 +3164,7 @@ MonoBehaviour:
   chooseSceneBy: 1
   sceneNumber: 1
   sceneNumberParameterID: -1
-  sceneName: CosplayShop
+  sceneName: Club1
   sceneNameParameterID: -1
   assignScreenOverlay: 0
   onlyPreload: 0
@@ -3299,7 +3299,7 @@ GameObject:
   - component: {fileID: 1912558568}
   - component: {fileID: 1912558569}
   m_Layer: 2
-  m_Name: GoOutShopCS
+  m_Name: GoSCCS
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3497,7 +3497,7 @@ GameObject:
   - component: {fileID: 2083343422}
   - component: {fileID: 2083343421}
   m_Layer: 2
-  m_Name: GoShopConv
+  m_Name: GoSCConv
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3885,7 +3885,7 @@ GameObject:
   - component: {fileID: 1352148934361817443}
   - component: {fileID: 1352148934371625123}
   m_Layer: 2
-  m_Name: GoOutShopCS
+  m_Name: GoClubCS
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4266,7 +4266,7 @@ GameObject:
   - component: {fileID: 3949172673685342980}
   - component: {fileID: 3949172673685342982}
   m_Layer: 2
-  m_Name: GoShopConv
+  m_Name: GoClubConv
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5067,7 +5067,7 @@ GameObject:
   - component: {fileID: 8067173277265320151}
   - component: {fileID: 8067173277254529303}
   m_Layer: 0
-  m_Name: 'GoAnimate: Use'
+  m_Name: 'GoClub: Use'
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
