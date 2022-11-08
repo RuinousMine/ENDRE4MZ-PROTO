@@ -597,12 +597,12 @@ MonoBehaviour:
   title: SubsLineLabel
   slotSize: {x: 71, y: 27}
   sizeType: 1
-  positionType: 0
+  positionType: 1
   slotSpacing: 0
   lineID: 87
   alternativeInputButton: 
   font: {fileID: 12800000, guid: 1a758cbf3232f4528b498dbbfba98738, type: 3}
-  fontScaleFactor: 4
+  fontScaleFactor: 3
   fontColor: {r: 0, g: 0, b: 0, a: 1}
   fontHighlightColor: {r: 1, g: 1, b: 1, a: 1}
   isVisible: 1
@@ -627,13 +627,13 @@ MonoBehaviour:
   relativePosition: {x: 0, y: 0}
   numSlots: 1
   uiText: {fileID: 0}
-  _label: "\u7720\u308A\u306B\u3064\u304F\uFF1F"
+  _label: "\u30B1\u30C0\u30EC\u30DF\u3055\u307E\u3063\u3066\u77E5\u3063\u3066\u308B\uFF1F\n\u6821\u9577\u5BA4\u306E\u5965\u306B\u3042\u308B\u5927\u304D\u306A\u50CF\u306A\u3093\u3060\u3051\u3069\u3001\n\u591C\u306B\u898B\u306B\u884C\u304F\u3068\u9854\u306B\u639B\u304B\u3063\u3066\u308B\u5E03\u304C\u306A\u3044\u3093\u3060\u3063\u3066\u3002"
   anchor: 4
   textEffects: 0
   outlineSize: 1
   labelType: 2
   variableID: 0
-  useCharacterColour: 1
+  useCharacterColour: 0
   autoAdjustHeight: 0
   updateIfEmpty: 1
   showPendingWhileMovingToHotspot: 0
@@ -4172,12 +4172,12 @@ MonoBehaviour:
   title: SubsSpeakerLabel
   slotSize: {x: 18, y: 7}
   sizeType: 1
-  positionType: 0
+  positionType: 1
   slotSpacing: 0
   lineID: 86
   alternativeInputButton: 
   font: {fileID: 12800000, guid: 1a758cbf3232f4528b498dbbfba98738, type: 3}
-  fontScaleFactor: 2.73
+  fontScaleFactor: 2.5
   fontColor: {r: 0, g: 0, b: 0, a: 1}
   fontHighlightColor: {r: 1, g: 1, b: 1, a: 1}
   isVisible: 1
@@ -4202,11 +4202,11 @@ MonoBehaviour:
   relativePosition: {x: 0, y: 0}
   numSlots: 1
   uiText: {fileID: 0}
-  _label: Brain
+  _label: '[var:0]'
   anchor: 4
   textEffects: 0
   outlineSize: 2
-  labelType: 3
+  labelType: 0
   variableID: 0
   useCharacterColour: 0
   autoAdjustHeight: 1

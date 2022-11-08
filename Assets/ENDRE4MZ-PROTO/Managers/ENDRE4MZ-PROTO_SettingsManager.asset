@@ -248,7 +248,7 @@ MonoBehaviour:
   - ID: 0
     audioClip: {fileID: 8300000, guid: a30802a13e1fb4f6f82767e7d997d835, type: 3}
     relativeVolume: 1
-    overrideMixerGroup: {fileID: 0}
+    overrideMixerGroup: {fileID: 5942857181771024348, guid: aa0d56dce3c0a4f4a99b6fd8b2966772, type: 2}
   - ID: 1
     audioClip: {fileID: 8300000, guid: 134c32f4be0f040f3be671d8e3d14c90, type: 3}
     relativeVolume: 0.3

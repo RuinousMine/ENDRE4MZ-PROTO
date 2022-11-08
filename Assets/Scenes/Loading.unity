@@ -449,7 +449,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4f231c4fb786f3946a6b90b886c48677, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_SendPointerHoverToParent: 1
   m_HorizontalAxis: Horizontal
   m_VerticalAxis: Vertical
   m_SubmitButton: Submit
@@ -667,8 +666,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: Loading...
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 947bc91c5e4d846fd890733fb2599bee, type: 2}
-  m_sharedMaterial: {fileID: -753055393276417832, guid: 947bc91c5e4d846fd890733fb2599bee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: e013e0ed4d2b24a08889928f4559aa47, type: 2}
+  m_sharedMaterial: {fileID: -920775528828961217, guid: e013e0ed4d2b24a08889928f4559aa47, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []

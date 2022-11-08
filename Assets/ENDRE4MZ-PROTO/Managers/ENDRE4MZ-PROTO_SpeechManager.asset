@@ -74,7 +74,7 @@ MonoBehaviour:
   maxID: -1
   speechIDRecycling: 0
   mergeMatchingSpeechIDs: 0
-  useSpeechTags: 0
+  useSpeechTags: 1
   speechTags:
   - ID: 0
     label: (Untagged)
