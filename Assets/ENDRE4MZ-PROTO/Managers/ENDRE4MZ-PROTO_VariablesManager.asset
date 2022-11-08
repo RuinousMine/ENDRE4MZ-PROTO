@@ -13,12 +13,12 @@ MonoBehaviour:
   m_Name: ENDRE4MZ-PROTO_VariablesManager
   m_EditorClassIdentifier: 
   vars:
-  - label: Mutaso
+  - label: NPCName
     id: 0
-    type: 0
+    type: 2
     val: 0
     floatVal: 0
-    textVal: 
+    textVal: "\u77E5\u3089\u306A\u3044\u4EBA"
     gameObjectVal: {fileID: 0}
     gameObjectSaveReferences: 1
     objectVal: {fileID: 0}

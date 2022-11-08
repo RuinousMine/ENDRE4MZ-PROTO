@@ -349,10 +349,10 @@ MonoBehaviour:
   turnSpeed: 100
   acceleration: 6
   deceleration: 0
-  turnBeforeWalking: 0
+  turnBeforeWalking: 1
   runDistanceThreshold: 1
   antiGlideMode: 0
-  retroPathfinding: 0
+  retroPathfinding: 1
   ignoreGravity: 1
   freezeRigidbodyWhenIdle: 1
   useRigidbodyForMovement: 1
