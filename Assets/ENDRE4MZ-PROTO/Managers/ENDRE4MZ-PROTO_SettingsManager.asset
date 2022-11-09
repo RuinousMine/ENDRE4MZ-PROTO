@@ -77,7 +77,7 @@ MonoBehaviour:
     startingSceneName: 
     useSceneDefaultPlayerStart: 1
     startingPlayerStartID: 0
-  movementMethod: 1
+  movementMethod: 0
   inputMethod: 1
   simulatedCursorMoveSpeed: 4
   interactionMethod: 0
