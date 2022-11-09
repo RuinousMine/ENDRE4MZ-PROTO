@@ -4,18 +4,19 @@ TrueTypeFontImporter:
   externalObjects: {}
   serializedVersion: 4
   fontSize: 16
-  forceTextureCase: -2
+  forceTextureCase: -1
   characterSpacing: 0
   characterPadding: 1
   includeFontData: 1
   fontNames:
   - x12y16pxMaruMonica
-  fallbackFontReferences: []
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: 1a57e7a6fabcf46848ff00e7d4992481, type: 3}
   customCharacters: 
   fontRenderingMode: 0
   ascentCalculationMode: 1
   useLegacyBoundsCalculation: 0
-  shouldRoundAdvanceValue: 1
+  shouldRoundAdvanceValue: 0
   userData: 
   assetBundleName: 
   assetBundleVariant: 
