@@ -77,7 +77,7 @@ MonoBehaviour:
     startingSceneName: 
     useSceneDefaultPlayerStart: 1
     startingPlayerStartID: 0
-  movementMethod: 0
+  movementMethod: 1
   inputMethod: 1
   simulatedCursorMoveSpeed: 4
   interactionMethod: 0
@@ -189,20 +189,28 @@ MonoBehaviour:
   hotspotIcon: 0
   hotspotIconTexture: {fileID: 0}
   hotspotIconGraphic:
-    texture: {fileID: 2800000, guid: 9f0dba66a104541d5af233a95c3a9dc3, type: 3}
+    texture: {fileID: 2800000, guid: 0cb1c7f15f9a748d8b07f4d498d78cb8, type: 3}
     isAnimated: 0
-    numFrames: 1
-    numRows: 1
-    numCols: 1
+    numFrames: 8
+    numRows: 3
+    numCols: 45
     size: 0.04
-    animSpeed: 4
+    animSpeed: 10
     endAnimOnLastFrame: 0
     skipFirstFrameWhenLooping: 0
     clickOffset: {x: 0, y: 0}
-    frameSpeeds: []
-    alwaysAnimate: 0
+    frameSpeeds:
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    alwaysAnimate: 1
   highlightMaterialPropertyOverride: 
-  hotspotIconSize: 1.05
+  hotspotIconSize: 1
   playerFacesHotspots: 0
   onlyFaceHotspotOnSelect: 0
   scaleHighlightWithMouseProximity: 0
