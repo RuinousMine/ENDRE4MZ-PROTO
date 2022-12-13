@@ -3594,7 +3594,7 @@ MonoBehaviour:
   chooseSceneBy: 1
   sceneNumber: 0
   sceneNumberParameterID: -1
-  sceneName: Apartment
+  sceneName: Mitaka
   sceneNameParameterID: -1
   assignScreenOverlay: 0
   onlyPreload: 0
@@ -4879,7 +4879,7 @@ GameObject:
   - component: {fileID: 4975843373718718091}
   - component: {fileID: 4975843373719790059}
   m_Layer: 2
-  m_Name: GoApartment
+  m_Name: GoMitaka
   m_TagString: Untagged
   m_Icon: {fileID: 5132851093641282708, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
