@@ -11922,6 +11922,7 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_TargetAssemblyTypeName
       value: AC.ActionListAsset, Assembly-CSharp
       objectReference: {fileID: 0}
+
     - target: {fileID: 9021404854204985855, guid: 851617eff3bfb4274bd959fc58990393, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5
@@ -16315,6 +16316,18 @@ MonoBehaviour:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
+      - m_Target: {fileID: 11400000, guid: 6f64dfacf7c644ae6b29352519f975fe, type: 2}
+        m_TargetAssemblyTypeName: AC.ActionListAsset, Assembly-CSharp
+        m_MethodName: Interact
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 1
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 1
