@@ -113,7 +113,8 @@ MonoBehaviour:
     popUpsLineID: -1
     description: 
     showInFilter: 1
-  - label: FortuneTelling
+  - label: ReadMailMag1
+
     id: 5
     type: 0
     val: 0
@@ -133,7 +134,8 @@ MonoBehaviour:
     popUpsLineID: -1
     description: 
     showInFilter: 1
-  - label: TalkToStrangeMan
-    id: 6
-    type: 0
-    val: 
+  varPresets: []
+  updateRuntime: 1
+  popUpLabelData: []
+  scrollPos: {x: 0, y: 0}
+
