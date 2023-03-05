@@ -617,8 +617,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 368491057}
   m_LocalRotation: {x: -0, y: -0, z: -0.0065204953, w: 0.9999787}
-  m_LocalPosition: {x: 751, y: 353, z: 0}
-  m_LocalScale: {x: 156.8568, y: 156.8568, z: 156.8568}
+  m_LocalPosition: {x: 616, y: 280, z: 0}
+  m_LocalScale: {x: 130.4578, y: 135.1635, z: 156.8568}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 322835852}
@@ -4228,7 +4228,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 129286601913945110}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 108, y: 24, z: 0}
+  m_LocalPosition: {x: 156, y: 97, z: 0}
   m_LocalScale: {x: 375.67477, y: 213.99347, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -5203,10 +5203,10 @@ MonoBehaviour:
     order: 1
     layer: 
     color: {r: 0.44611937, g: 0.35701972, b: 0.7538928, a: 1}
-    scale: 3500
+    scale: 7500
   affectScale: 1
   affectSpeed: 1
-  originScale: 3500
+  originScale: 7500
   sortingMapScaleType: 0
   scalingAnimationCurve:
     serializedVersion: 2
