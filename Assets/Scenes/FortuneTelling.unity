@@ -458,75 +458,6 @@ Transform:
   m_Father: {fileID: 322835852}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &196867959
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c0f86ace5fdd94f0a86553230ec9308f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  id: 0
-  isDisplayed: 1
-  showComment: 0
-  comment: 
-  willWait: 0
-  endAction: 0
-  skipAction: -1
-  skipActionActual: {fileID: 0}
-  linkedCutscene: {fileID: 0}
-  linkedAsset: {fileID: 0}
-  endings:
-  - resultAction: 1
-    skipAction: 2
-    skipActionActual: {fileID: 517143377}
-    linkedCutscene: {fileID: 0}
-    linkedAsset: {fileID: 0}
-  isEnabled: 1
-  isAssetFile: 0
-  isBreakPoint: 0
-  nodeRect:
-    serializedVersion: 2
-    x: 917.25
-    y: 2825.0425
-    width: 300
-    height: 152
-  overrideColor: {r: 1, g: 1, b: 1, a: 1}
-  showOutputSockets: 1
-  parentActionListInEditor: {fileID: 0}
-  setVarMethod: 0
-  setVarMethodString: 0
-  setVarMethodIntBool: 0
-  setVarMethodVector: 0
-  parameterID: -1
-  variableID: 6
-  variableNumber: 6
-  setParameterID: -1
-  slotNumber: 0
-  slotNumberParameterID: -1
-  slotAccountsForOffset: 0
-  intValue: 0
-  floatValue: 0
-  boolValue: 1
-  stringValue: 
-  formula: 
-  vector3Value: {x: 0, y: 0, z: 0}
-  gameObjectValue: {fileID: 0}
-  unityObjectValue: {fileID: 0}
-  lineID: -1
-  location: 0
-  menuName: 
-  elementName: 
-  animator: {fileID: 0}
-  parameterName: 
-  variables: {fileID: 0}
-  variablesConstantID: 0
-  placeholderType: 0
-  placeholderPopUpLabelDataID: -1
 --- !u!114 &226412404
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -628,8 +559,8 @@ MonoBehaviour:
   setVarMethodIntBool: 0
   setVarMethodVector: 0
   parameterID: -1
-  variableID: 7
-  variableNumber: 7
+  variableID: 5
+  variableNumber: 6
   setParameterID: -1
   slotNumber: 0
   slotNumberParameterID: -1
@@ -698,7 +629,7 @@ MonoBehaviour:
   setVarMethodVector: 0
   parameterID: -1
   variableID: 0
-  variableNumber: 0
+  variableNumber: 5
   setParameterID: -1
   slotNumber: 0
   slotNumberParameterID: -1
@@ -719,7 +650,7 @@ MonoBehaviour:
   parameterName: 
   variables: {fileID: 0}
   variablesConstantID: 0
-  placeholderType: 2
+  placeholderType: 0
   placeholderPopUpLabelDataID: -1
 --- !u!1 &322835851
 GameObject:
@@ -1044,8 +975,8 @@ MonoBehaviour:
   linkedCutsceneFail: {fileID: 0}
   linkedAssetFail: {fileID: 0}
   parameterID: -1
-  variableID: 5
-  variableNumber: 5
+  variableID: 7
+  variableNumber: 7
   checkParameterID: -1
   getVarMethod: 0
   compareVariableID: 0
@@ -1289,7 +1220,7 @@ MonoBehaviour:
   linkedAssetFail: {fileID: 0}
   parameterID: -1
   variableID: 6
-  variableNumber: 6
+  variableNumber: 7
   checkParameterID: -1
   getVarMethod: 0
   compareVariableID: 0
@@ -1677,7 +1608,7 @@ MonoBehaviour:
   setVarMethodVector: 0
   parameterID: -1
   variableID: 0
-  variableNumber: 0
+  variableNumber: 5
   setParameterID: -1
   slotNumber: 0
   slotNumberParameterID: -1
@@ -1698,7 +1629,7 @@ MonoBehaviour:
   parameterName: 
   variables: {fileID: 0}
   variablesConstantID: 0
-  placeholderType: 2
+  placeholderType: 0
   placeholderPopUpLabelDataID: -1
 --- !u!1 &855284224
 GameObject:
@@ -2096,7 +2027,7 @@ MonoBehaviour:
   setVarMethodVector: 0
   parameterID: -1
   variableID: 6
-  variableNumber: 6
+  variableNumber: 7
   setParameterID: -1
   slotNumber: 0
   slotNumberParameterID: -1
@@ -2157,8 +2088,8 @@ MonoBehaviour:
   isBreakPoint: 0
   nodeRect:
     serializedVersion: 2
-    x: 397
-    y: 251.62573
+    x: 393
+    y: 249.62573
     width: 300
     height: 220
   overrideColor: {r: 1, g: 1, b: 1, a: 1}
@@ -2175,8 +2106,8 @@ MonoBehaviour:
   linkedCutsceneFail: {fileID: 0}
   linkedAssetFail: {fileID: 0}
   parameterID: -1
-  variableID: 7
-  variableNumber: 7
+  variableID: 5
+  variableNumber: 5
   checkParameterID: -1
   getVarMethod: 0
   compareVariableID: 0
@@ -2603,7 +2534,7 @@ MonoBehaviour:
   endings:
   - resultAction: 2
     skipAction: 28
-    skipActionActual: {fileID: 196867959}
+    skipActionActual: {fileID: 1005892708}
     linkedCutscene: {fileID: 0}
     linkedAsset: {fileID: 0}
   isEnabled: 1
@@ -2977,75 +2908,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1308261886
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c0f86ace5fdd94f0a86553230ec9308f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  id: 0
-  isDisplayed: 1
-  showComment: 0
-  comment: 
-  willWait: 0
-  endAction: 0
-  skipAction: -1
-  skipActionActual: {fileID: 0}
-  linkedCutscene: {fileID: 0}
-  linkedAsset: {fileID: 0}
-  endings:
-  - resultAction: 1
-    skipAction: 16
-    skipActionActual: {fileID: 1300286298}
-    linkedCutscene: {fileID: 0}
-    linkedAsset: {fileID: 0}
-  isEnabled: 1
-  isAssetFile: 0
-  isBreakPoint: 0
-  nodeRect:
-    serializedVersion: 2
-    x: 589
-    y: 3323.5093
-    width: 300
-    height: 152
-  overrideColor: {r: 1, g: 1, b: 1, a: 1}
-  showOutputSockets: 1
-  parentActionListInEditor: {fileID: 0}
-  setVarMethod: 1
-  setVarMethodString: 0
-  setVarMethodIntBool: 0
-  setVarMethodVector: 0
-  parameterID: -1
-  variableID: 7
-  variableNumber: 7
-  setParameterID: -1
-  slotNumber: 0
-  slotNumberParameterID: -1
-  slotAccountsForOffset: 0
-  intValue: 1
-  floatValue: 0
-  boolValue: 1
-  stringValue: 
-  formula: 
-  vector3Value: {x: 0, y: 0, z: 0}
-  gameObjectValue: {fileID: 0}
-  unityObjectValue: {fileID: 0}
-  lineID: -1
-  location: 0
-  menuName: 
-  elementName: 
-  animator: {fileID: 0}
-  parameterName: 
-  variables: {fileID: 0}
-  variablesConstantID: 0
-  placeholderType: 0
-  placeholderPopUpLabelDataID: -1
 --- !u!1 &1340591387
 GameObject:
   m_ObjectHideFlags: 0
@@ -4230,8 +4092,8 @@ MonoBehaviour:
   isBreakPoint: 0
   nodeRect:
     serializedVersion: 2
-    x: 389
-    y: 499.6756
+    x: 394
+    y: 532.6756
     width: 300
     height: 207
   overrideColor: {r: 1, g: 1, b: 1, a: 1}
@@ -4766,7 +4628,7 @@ MonoBehaviour:
   endings:
   - resultAction: 2
     skipAction: 25
-    skipActionActual: {fileID: 1308261886}
+    skipActionActual: {fileID: 244367898}
     linkedCutscene: {fileID: 0}
     linkedAsset: {fileID: 0}
   isEnabled: 1
