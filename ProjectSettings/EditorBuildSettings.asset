@@ -54,6 +54,6 @@ EditorBuildSettings:
     path: Assets/Scenes/Mitaka.unity
     guid: b41f5414cd7a04041b1450a4610bdffd
   - enabled: 1
-    path: Assets/Scenes/FortuneTeller1.unity
-    guid: a78cd6bba0744465680ab35fc70a316e
+    path: Assets/Scenes/FortuneTelling.unity
+    guid: 50705898d80c34e92b42ec7378f8dce5
   m_configObjects: {}
