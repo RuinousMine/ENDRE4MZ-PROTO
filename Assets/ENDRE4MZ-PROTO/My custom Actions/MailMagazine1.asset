@@ -46,7 +46,7 @@ MonoBehaviour:
   replaceGameObject: {fileID: 0}
   replaceParameterID: -1
   replaceConstantID: 0
-  relativeGameObject: {fileID: 8920819331846501024, guid: 51999284e1d5b4fba8dd687dab587762, type: 3}
+  relativeGameObject: {fileID: 0}
   relativeGameObjectID: 41042
   relativeGameObjectParameterID: -1
   relativeVectorParameterID: -1
@@ -141,8 +141,8 @@ MonoBehaviour:
   linkedCutsceneFail: {fileID: 0}
   linkedAssetFail: {fileID: 0}
   parameterID: -1
-  variableID: 4
-  variableNumber: 4
+  variableID: 5
+  variableNumber: 5
   checkParameterID: -1
   getVarMethod: 0
   compareVariableID: 0
