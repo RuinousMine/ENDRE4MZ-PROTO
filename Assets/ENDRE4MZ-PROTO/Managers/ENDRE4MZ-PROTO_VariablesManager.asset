@@ -96,7 +96,7 @@ MonoBehaviour:
   - label: ListenOtakuConv
     id: 4
     type: 0
-    val: 1
+    val: 0
     floatVal: 0
     textVal: 
     gameObjectVal: {fileID: 0}
@@ -176,7 +176,7 @@ MonoBehaviour:
   - label: FollowMutaso
     id: 8
     type: 0
-    val: 1
+    val: 0
     floatVal: 0
     textVal: 
     gameObjectVal: {fileID: 0}
@@ -196,7 +196,7 @@ MonoBehaviour:
   - label: AskShopStaff
     id: 9
     type: 0
-    val: 1
+    val: 0
     floatVal: 0
     textVal: 
     gameObjectVal: {fileID: 0}
