@@ -36,7 +36,7 @@ MonoBehaviour:
   - label: LocateSweetCostume
     id: 1
     type: 0
-    val: 0
+    val: 1
     floatVal: 0
     textVal: 
     gameObjectVal: {fileID: 0}
@@ -96,7 +96,7 @@ MonoBehaviour:
   - label: ListenOtakuConv
     id: 4
     type: 0
-    val: 0
+    val: 1
     floatVal: 0
     textVal: 
     gameObjectVal: {fileID: 0}
@@ -176,7 +176,7 @@ MonoBehaviour:
   - label: FollowMutaso
     id: 8
     type: 0
-    val: 0
+    val: 1
     floatVal: 0
     textVal: 
     gameObjectVal: {fileID: 0}
@@ -235,6 +235,46 @@ MonoBehaviour:
     showInFilter: 1
   - label: WatchImportantVideo
     id: 11
+    type: 0
+    val: 0
+    floatVal: 0
+    textVal: 
+    gameObjectVal: {fileID: 0}
+    gameObjectSaveReferences: 1
+    objectVal: {fileID: 0}
+    popUps: []
+    vector3Val: {x: 0, y: 0, z: 0}
+    link: 0
+    pmVar: 
+    updateLinkOnStart: 0
+    canTranslate: 1
+    popUpID: 0
+    textValLineID: -1
+    popUpsLineID: -1
+    description: 
+    showInFilter: 1
+  - label: AskAboutBoy
+    id: 12
+    type: 0
+    val: 1
+    floatVal: 0
+    textVal: 
+    gameObjectVal: {fileID: 0}
+    gameObjectSaveReferences: 1
+    objectVal: {fileID: 0}
+    popUps: []
+    vector3Val: {x: 0, y: 0, z: 0}
+    link: 0
+    pmVar: 
+    updateLinkOnStart: 0
+    canTranslate: 1
+    popUpID: 0
+    textValLineID: -1
+    popUpsLineID: -1
+    description: 
+    showInFilter: 1
+  - label: MutasoisAyumu
+    id: 13
     type: 0
     val: 0
     floatVal: 0
