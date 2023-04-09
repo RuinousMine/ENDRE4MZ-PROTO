@@ -5241,7 +5241,7 @@ MonoBehaviour:
   clickSound: {fileID: 0}
   changeCursor: 0
   cursorID: 0
-  linkedUiID: 6676
+  linkedUiID: 14372
   maxAutoWidthFactor: 0.5
   relativeRect:
     serializedVersion: 2
@@ -6346,7 +6346,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a5f455f0e4a864975bf60bc153fbe20d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  menuSource: 2
+  menuSource: 1
   canvas: {fileID: 0}
   canvasAssetKey: 
   canvasID: 5178
