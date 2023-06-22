@@ -1824,6 +1824,75 @@ MonoBehaviour:
   mouthClip2D: 
   mouthLayer: 0
   waitTimeOffset: 0
+--- !u!114 &974433191
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c0f86ace5fdd94f0a86553230ec9308f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  id: 0
+  isDisplayed: 1
+  showComment: 0
+  comment: 
+  willWait: 0
+  endAction: 0
+  skipAction: -1
+  skipActionActual: {fileID: 0}
+  linkedCutscene: {fileID: 0}
+  linkedAsset: {fileID: 0}
+  endings:
+  - resultAction: 1
+    skipAction: 1
+    skipActionActual: {fileID: 949649427}
+    linkedCutscene: {fileID: 0}
+    linkedAsset: {fileID: 0}
+  isEnabled: 1
+  isAssetFile: 0
+  isBreakPoint: 0
+  nodeRect:
+    serializedVersion: 2
+    x: 364
+    y: 1626.5974
+    width: 300
+    height: 152
+  overrideColor: {r: 1, g: 1, b: 1, a: 1}
+  showOutputSockets: 1
+  parentActionListInEditor: {fileID: 312714398022790013}
+  setVarMethod: 0
+  setVarMethodString: 0
+  setVarMethodIntBool: 0
+  setVarMethodVector: 0
+  parameterID: -1
+  variableID: 14
+  variableNumber: 14
+  setParameterID: -1
+  slotNumber: 0
+  slotNumberParameterID: -1
+  slotAccountsForOffset: 0
+  intValue: 0
+  floatValue: 0
+  boolValue: 1
+  stringValue: 
+  formula: 
+  vector3Value: {x: 0, y: 0, z: 0}
+  gameObjectValue: {fileID: 0}
+  unityObjectValue: {fileID: 0}
+  lineID: -1
+  location: 0
+  menuName: 
+  elementName: 
+  animator: {fileID: 0}
+  parameterName: 
+  variables: {fileID: 0}
+  variablesConstantID: 0
+  placeholderType: 0
+  placeholderPopUpLabelDataID: -1
 --- !u!114 &990657030
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2627,8 +2696,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1205778540}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 45, y: -82, z: -1}
-  m_LocalScale: {x: 28.587, y: 28.587, z: 28.587}
+  m_LocalPosition: {x: 45, y: -91, z: -1}
+  m_LocalScale: {x: 192, y: 192, z: 192}
   m_ConstrainProportionsScale: 1
   m_Children: []
   m_Father: {fileID: 5215400827764494141}
@@ -2675,7 +2744,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 819608593, guid: 045104fd1ff1f4b03b0cb5b2838ca129, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 5b617c1e1d1ca408a9df13550d536f93, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -5346,8 +5415,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 129286601913945110}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 135.8564, y: 117, z: 0}
-  m_LocalScale: {x: 130.26645, y: 328.00735, z: 1}
+  m_LocalPosition: {x: 145, y: 1, z: 0}
+  m_LocalScale: {x: 228.1, y: 344.72, z: 11.04}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1340591388}
@@ -5421,7 +5490,7 @@ MeshFilter:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 129286601913945110}
-  m_Mesh: {fileID: 4300000, guid: 8248897fb932642fa8bb9ae3b7d443b5, type: 3}
+  m_Mesh: {fileID: 4300000, guid: 34661294d34434c2d96b8bca565e8010, type: 3}
 --- !u!114 &129286601923639796
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5628,7 +5697,7 @@ MonoBehaviour:
   - {fileID: 657725961}
   - {fileID: 465796956}
   - {fileID: 1055083811}
-  - {fileID: 2048619498}
+  - {fileID: 974433191}
   isSkippable: 1
   triggerTime: 0
   autosaveAfter: 0
@@ -7247,10 +7316,10 @@ MonoBehaviour:
     order: 1
     layer: 
     color: {r: 0.44611937, g: 0.35701972, b: 0.7538928, a: 1}
-    scale: 15000
+    scale: 200
   affectScale: 1
   affectSpeed: 1
-  originScale: 15000
+  originScale: 200
   sortingMapScaleType: 0
   scalingAnimationCurve:
     serializedVersion: 2

@@ -5539,10 +5539,10 @@ MonoBehaviour:
     order: 1
     layer: 
     color: {r: 0.44611937, g: 0.35701972, b: 0.7538928, a: 1}
-    scale: 17000
+    scale: 200
   affectScale: 1
   affectSpeed: 1
-  originScale: 17000
+  originScale: 200
   sortingMapScaleType: 0
   scalingAnimationCurve:
     serializedVersion: 2

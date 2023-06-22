@@ -461,7 +461,7 @@ MonoBehaviour:
   syncParamValues: 1
   backupData:
   - className: AC.ActionConversation
-    jsonData: '{"id":0,"isDisplayed":true,"showComment":false,"comment":"","willWait":false,"endAction":0,"skipAction":-99,"skipActionActual":{"instanceID":0},"linkedCutscene":{"instanceID":0},"linkedAsset":{"instanceID":0},"endings":[{"resultAction":2,"skipAction":1,"skipActionActual":{"instanceID":96286},"linkedCutscene":{"instanceID":0},"linkedAsset":{"instanceID":0}},{"resultAction":2,"skipAction":2,"skipActionActual":{"instanceID":96330},"linkedCutscene":{"instanceID":0},"linkedAsset":{"instanceID":0}}],"isEnabled":true,"isAssetFile":false,"isBreakPoint":false,"nodeRect":{"serializedVersion":"2","x":14.0,"y":14.0,"width":300.0,"height":180.0},"overrideColor":{"r":1.0,"g":1.0,"b":1.0,"a":1.0},"showOutputSockets":true,"parentActionListInEditor":{"instanceID":230420729_0},"parameterID":-1,"constantID":0,"conversation":{"instanceID":987110819_0},"overrideOptionSocketIDs":[1,2],"overrideOptions":true,"setElement":false,"menuName":"","containerElementName":"","menuParameterID":-1,"elementParameterID":-1,"numSockets":2}'
+    jsonData: '{"id":0,"isDisplayed":true,"showComment":false,"comment":"","willWait":false,"endAction":0,"skipAction":-99,"skipActionActual":{"instanceID":0},"linkedCutscene":{"instanceID":0},"linkedAsset":{"instanceID":0},"endings":[{"resultAction":2,"skipAction":1,"skipActionActual":{"instanceID":88890},"linkedCutscene":{"instanceID":0},"linkedAsset":{"instanceID":0}},{"resultAction":2,"skipAction":2,"skipActionActual":{"instanceID":88936},"linkedCutscene":{"instanceID":0},"linkedAsset":{"instanceID":0}}],"isEnabled":true,"isAssetFile":false,"isBreakPoint":false,"nodeRect":{"serializedVersion":"2","x":14.0,"y":14.0,"width":300.0,"height":180.0},"overrideColor":{"r":1.0,"g":1.0,"b":1.0,"a":1.0},"showOutputSockets":true,"parentActionListInEditor":{"instanceID":230420729_0},"parameterID":-1,"constantID":0,"conversation":{"instanceID":987110819_0},"overrideOptionSocketIDs":[1,2],"overrideOptions":true,"setElement":false,"menuName":"","containerElementName":"","menuParameterID":-1,"elementParameterID":-1,"numSockets":2}'
     endingReferencesBuffer: 0101
     endingOverrideIndex: 0100000002000000
   - className: AC.ActionScene
@@ -1740,7 +1740,7 @@ GameObject:
   - component: {fileID: 1027303391}
   - component: {fileID: 1027303390}
   m_Layer: 2
-  m_Name: FromShop
+  m_Name: FromRailloadMap
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1754,8 +1754,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1027303388}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 1731.6814, y: 24, z: 0}
-  m_LocalScale: {x: 375.67477, y: 213.99347, z: 1}
+  m_LocalPosition: {x: 859, y: -1, z: -10}
+  m_LocalScale: {x: 41.925304, y: 46.051395, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1340591388}
@@ -1775,7 +1775,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   chooseSceneBy: 1
   previousScene: 0
-  previousSceneName: CosplayShop
+  previousSceneName: RailroadMap
   fadeInOnStart: 0
   fadeSpeed: 0.5
   cameraOnStart: {fileID: 8455704120850022820}
@@ -1831,7 +1831,7 @@ MeshFilter:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1027303388}
-  m_Mesh: {fileID: 4300000, guid: 8248897fb932642fa8bb9ae3b7d443b5, type: 3}
+  m_Mesh: {fileID: 4300000, guid: f5ce8002b793946f097defc08a06c2d7, type: 3}
 --- !u!1 &1114834954
 GameObject:
   m_ObjectHideFlags: 0
@@ -1934,111 +1934,6 @@ Transform:
   m_Father: {fileID: 1114834955}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &1143751836
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1143751837}
-  - component: {fileID: 1143751840}
-  - component: {fileID: 1143751839}
-  - component: {fileID: 1143751838}
-  m_Layer: 2
-  m_Name: FromAkiba2
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1143751837
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1143751836}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 2002.9657, y: 24, z: 0}
-  m_LocalScale: {x: 375.67477, y: 213.99347, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 1340591388}
-  m_RootOrder: 2
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1143751838
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1143751836}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3ffb48ecf9de44666b3779fe84044e36, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  chooseSceneBy: 1
-  previousScene: 0
-  previousSceneName: Akihabara2
-  fadeInOnStart: 0
-  fadeSpeed: 0.5
-  cameraOnStart: {fileID: 8455704120850022820}
-  playerIDs: 
-  limitByPlayer: 0
-  limitByActive: 0
---- !u!23 &1143751839
-MeshRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1143751836}
-  m_Enabled: 1
-  m_CastShadows: 0
-  m_ReceiveShadows: 0
-  m_DynamicOccludee: 1
-  m_StaticShadowCaster: 0
-  m_MotionVectors: 1
-  m_LightProbeUsage: 0
-  m_ReflectionProbeUsage: 1
-  m_RayTracingMode: 2
-  m_RayTraceProcedural: 0
-  m_RenderingLayerMask: 1
-  m_RendererPriority: 0
-  m_Materials:
-  - {fileID: 2100000, guid: f629c1022ba92427fb25a0d165b86df1, type: 2}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_ReceiveGI: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 1
-  m_SelectedEditorRenderState: 3
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
-  m_AdditionalVertexStreams: {fileID: 0}
---- !u!33 &1143751840
-MeshFilter:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1143751836}
-  m_Mesh: {fileID: 4300000, guid: 8248897fb932642fa8bb9ae3b7d443b5, type: 3}
 --- !u!1 &1200176825
 GameObject:
   m_ObjectHideFlags: 0
@@ -2223,7 +2118,6 @@ Transform:
   m_Children:
   - {fileID: 129286601913913398}
   - {fileID: 1027303389}
-  - {fileID: 1143751837}
   m_Father: {fileID: 1114834955}
   m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -2640,11 +2534,12 @@ EdgeCollider2D:
   - {x: -19.400396, y: 37.44275}
   - {x: -18.555038, y: -67.314224}
   - {x: -16.016434, y: -70.69681}
-  - {x: 87.66876, y: -71.36923}
-  - {x: 161.72386, y: -67.82201}
-  - {x: 244.83568, y: -71.872055}
-  - {x: 1519.3326, y: -65.11227}
-  - {x: 1519.26, y: 38.20005}
+  - {x: -24.365967, y: -73.36984}
+  - {x: -18.331924, y: -75.82449}
+  - {x: -15.244888, y: -101.88136}
+  - {x: 1505.3284, y: -99.12281}
+  - {x: 1211.1543, y: -78.83953}
+  - {x: 1211.154, y: 38.20005}
   - {x: 1189.7715, y: 40.03048}
   - {x: -18.662445, y: 39.34722}
   m_AdjacentStartPoint: {x: 0, y: 0}
@@ -3040,7 +2935,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 5215400827764494141}
-  m_RootOrder: 2
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1627530830
 MonoBehaviour:
@@ -3148,7 +3043,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: -1008889070, guid: 045104fd1ff1f4b03b0cb5b2838ca129, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 14b44a810877346b1b1462bd75438eed, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -3167,12 +3062,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1687702112}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 43.6396, y: -164.4662, z: -1}
-  m_LocalScale: {x: 13.641482, y: 13.641482, z: 13.641482}
+  m_LocalPosition: {x: 63, y: -210, z: -1}
+  m_LocalScale: {x: 96, y: 96, z: 96}
   m_ConstrainProportionsScale: 1
   m_Children: []
   m_Father: {fileID: 5215400827764494141}
-  m_RootOrder: 3
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1723949187
 MonoBehaviour:
@@ -4072,7 +3967,7 @@ MonoBehaviour:
   syncParamValues: 1
   backupData:
   - className: AC.ActionRunActionList
-    jsonData: '{"id":0,"isDisplayed":true,"showComment":false,"comment":"","willWait":false,"endAction":0,"skipAction":-1,"skipActionActual":{"instanceID":0},"linkedCutscene":{"instanceID":0},"linkedAsset":{"instanceID":0},"endings":[{"resultAction":2,"skipAction":1,"skipActionActual":{"instanceID":96070},"linkedCutscene":{"instanceID":0},"linkedAsset":{"instanceID":0}}],"isEnabled":true,"isAssetFile":false,"isBreakPoint":false,"nodeRect":{"serializedVersion":"2","x":14.0,"y":14.0,"width":300.0,"height":172.0},"overrideColor":{"r":1.0,"g":1.0,"b":1.0,"a":1.0},"showOutputSockets":true,"parentActionListInEditor":{"instanceID":2114270271_0},"listSource":1,"actionList":{"instanceID":0},"constantID":0,"parameterID":-1,"invActionList":{"instanceID":27094},"assetParameterID":-1,"runFromStart":true,"jumpToAction":0,"jumpToActionParameterID":-1,"jumpToActionActual":{"instanceID":0},"runInParallel":true,"isSkippable":false,"localParameters":[],"parameterIDs":[],"setParameters":false,"runMode":0,"hasUpgradedAgain":false}'
+    jsonData: '{"id":0,"isDisplayed":true,"showComment":false,"comment":"","willWait":false,"endAction":0,"skipAction":-1,"skipActionActual":{"instanceID":0},"linkedCutscene":{"instanceID":0},"linkedAsset":{"instanceID":0},"endings":[{"resultAction":2,"skipAction":1,"skipActionActual":{"instanceID":88684},"linkedCutscene":{"instanceID":0},"linkedAsset":{"instanceID":0}}],"isEnabled":true,"isAssetFile":false,"isBreakPoint":false,"nodeRect":{"serializedVersion":"2","x":14.0,"y":14.0,"width":300.0,"height":172.0},"overrideColor":{"r":1.0,"g":1.0,"b":1.0,"a":1.0},"showOutputSockets":true,"parentActionListInEditor":{"instanceID":2114270271_0},"listSource":1,"actionList":{"instanceID":0},"constantID":0,"parameterID":-1,"invActionList":{"instanceID":27108},"assetParameterID":-1,"runFromStart":true,"jumpToAction":0,"jumpToActionParameterID":-1,"jumpToActionActual":{"instanceID":0},"runInParallel":true,"isSkippable":false,"localParameters":[],"parameterIDs":[],"setParameters":false,"runMode":0,"hasUpgradedAgain":false}'
     endingReferencesBuffer: 01
     endingOverrideIndex: 01000000
   - className: AC.ActionSpeech
@@ -4228,8 +4123,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 129286601913945110}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 156, y: 97, z: 0}
-  m_LocalScale: {x: 375.67477, y: 213.99347, z: 1}
+  m_LocalPosition: {x: 167, y: 3, z: -10}
+  m_LocalScale: {x: 41.925304, y: 46.051395, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1340591388}
@@ -4303,7 +4198,7 @@ MeshFilter:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 129286601913945110}
-  m_Mesh: {fileID: 4300000, guid: 8248897fb932642fa8bb9ae3b7d443b5, type: 3}
+  m_Mesh: {fileID: 4300000, guid: f5ce8002b793946f097defc08a06c2d7, type: 3}
 --- !u!114 &129286601923639796
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4514,15 +4409,15 @@ MonoBehaviour:
   syncParamValues: 1
   backupData:
   - className: AC.ActionConversation
-    jsonData: '{"id":0,"isDisplayed":true,"showComment":false,"comment":"","willWait":false,"endAction":0,"skipAction":-99,"skipActionActual":{"instanceID":0},"linkedCutscene":{"instanceID":0},"linkedAsset":{"instanceID":0},"endings":[{"resultAction":2,"skipAction":2,"skipActionActual":{"instanceID":96058},"linkedCutscene":{"instanceID":0},"linkedAsset":{"instanceID":0}},{"resultAction":2,"skipAction":4,"skipActionActual":{"instanceID":96150},"linkedCutscene":{"instanceID":0},"linkedAsset":{"instanceID":0}}],"isEnabled":true,"isAssetFile":false,"isBreakPoint":false,"nodeRect":{"serializedVersion":"2","x":14.0,"y":14.0,"width":300.0,"height":180.0},"overrideColor":{"r":1.0,"g":1.0,"b":1.0,"a":1.0},"showOutputSockets":true,"parentActionListInEditor":{"instanceID":312714398022790013_0},"parameterID":-1,"constantID":0,"conversation":{"instanceID":136112848630764415_0},"overrideOptionSocketIDs":[1,2],"overrideOptions":true,"setElement":false,"menuName":"","containerElementName":"","menuParameterID":-1,"elementParameterID":-1,"numSockets":2}'
+    jsonData: '{"id":0,"isDisplayed":true,"showComment":false,"comment":"","willWait":false,"endAction":0,"skipAction":-99,"skipActionActual":{"instanceID":0},"linkedCutscene":{"instanceID":0},"linkedAsset":{"instanceID":0},"endings":[{"resultAction":2,"skipAction":2,"skipActionActual":{"instanceID":88672},"linkedCutscene":{"instanceID":0},"linkedAsset":{"instanceID":0}},{"resultAction":2,"skipAction":4,"skipActionActual":{"instanceID":88764},"linkedCutscene":{"instanceID":0},"linkedAsset":{"instanceID":0}}],"isEnabled":true,"isAssetFile":false,"isBreakPoint":false,"nodeRect":{"serializedVersion":"2","x":14.0,"y":14.0,"width":300.0,"height":180.0},"overrideColor":{"r":1.0,"g":1.0,"b":1.0,"a":1.0},"showOutputSockets":true,"parentActionListInEditor":{"instanceID":312714398022790013_0},"parameterID":-1,"constantID":0,"conversation":{"instanceID":136112848630764415_0},"overrideOptionSocketIDs":[1,2],"overrideOptions":true,"setElement":false,"menuName":"","containerElementName":"","menuParameterID":-1,"elementParameterID":-1,"numSockets":2}'
     endingReferencesBuffer: 0101
     endingOverrideIndex: 0200000004000000
   - className: AC.ActionSpeech
-    jsonData: "{\"id\":0,\"isDisplayed\":true,\"showComment\":false,\"comment\":\"\",\"willWait\":false,\"endAction\":0,\"skipAction\":-1,\"skipActionActual\":{\"instanceID\":0},\"linkedCutscene\":{\"instanceID\":0},\"linkedAsset\":{\"instanceID\":0},\"endings\":[{\"resultAction\":2,\"skipAction\":5,\"skipActionActual\":{\"instanceID\":96254},\"linkedCutscene\":{\"instanceID\":0},\"linkedAsset\":{\"instanceID\":0}}],\"isEnabled\":true,\"isAssetFile\":false,\"isBreakPoint\":false,\"nodeRect\":{\"serializedVersion\":\"2\",\"x\":14.0,\"y\":406.0,\"width\":300.0,\"height\":220.5},\"overrideColor\":{\"r\":1.0,\"g\":1.0,\"b\":1.0,\"a\":1.0},\"showOutputSockets\":true,\"parentActionListInEditor\":{\"instanceID\":312714398022790013_0},\"constantID\":0,\"parameterID\":-1,\"messageParameterID\":-1,\"isPlayer\":true,\"playerID\":-1,\"speaker\":{\"instanceID\":0},\"messageText\":\"\u4ECA\u65E5\u306F\u30A2\u30AD\u30D0\u6700\u5F37\u30E1\u30A4\u30C9\u300E\u3086\u3086\u3061\u3083\u3093\u300F\u306E\\n\u30D0\u30FC\u30B9\u30C7\u30FC\u306A\u306E\u3060\u3088\u3001\u30AD\u30DF\u30FB\u30FB\u30FB\",\"lineID\":-1,\"multiLineIDs\":[],\"isBackground\":false,\"noAnimation\":false,\"headClip\":{\"instanceID\":0},\"mouthClip\":{\"instanceID\":0},\"play2DHeadAnim\":false,\"headClip2D\":\"\",\"headLayer\":0,\"play2DMouthAnim\":false,\"mouthClip2D\":\"\",\"mouthLayer\":0,\"waitTimeOffset\":0.0}"
+    jsonData: "{\"id\":0,\"isDisplayed\":true,\"showComment\":false,\"comment\":\"\",\"willWait\":false,\"endAction\":0,\"skipAction\":-1,\"skipActionActual\":{\"instanceID\":0},\"linkedCutscene\":{\"instanceID\":0},\"linkedAsset\":{\"instanceID\":0},\"endings\":[{\"resultAction\":2,\"skipAction\":5,\"skipActionActual\":{\"instanceID\":88858},\"linkedCutscene\":{\"instanceID\":0},\"linkedAsset\":{\"instanceID\":0}}],\"isEnabled\":true,\"isAssetFile\":false,\"isBreakPoint\":false,\"nodeRect\":{\"serializedVersion\":\"2\",\"x\":14.0,\"y\":406.0,\"width\":300.0,\"height\":220.5},\"overrideColor\":{\"r\":1.0,\"g\":1.0,\"b\":1.0,\"a\":1.0},\"showOutputSockets\":true,\"parentActionListInEditor\":{\"instanceID\":312714398022790013_0},\"constantID\":0,\"parameterID\":-1,\"messageParameterID\":-1,\"isPlayer\":true,\"playerID\":-1,\"speaker\":{\"instanceID\":0},\"messageText\":\"\u4ECA\u65E5\u306F\u30A2\u30AD\u30D0\u6700\u5F37\u30E1\u30A4\u30C9\u300E\u3086\u3086\u3061\u3083\u3093\u300F\u306E\\n\u30D0\u30FC\u30B9\u30C7\u30FC\u306A\u306E\u3060\u3088\u3001\u30AD\u30DF\u30FB\u30FB\u30FB\",\"lineID\":-1,\"multiLineIDs\":[],\"isBackground\":false,\"noAnimation\":false,\"headClip\":{\"instanceID\":0},\"mouthClip\":{\"instanceID\":0},\"play2DHeadAnim\":false,\"headClip2D\":\"\",\"headLayer\":0,\"play2DMouthAnim\":false,\"mouthClip2D\":\"\",\"mouthLayer\":0,\"waitTimeOffset\":0.0}"
     endingReferencesBuffer: 01
     endingOverrideIndex: 05000000
   - className: AC.ActionSpeechStop
-    jsonData: '{"id":0,"isDisplayed":true,"showComment":false,"comment":"","willWait":false,"endAction":0,"skipAction":-1,"skipActionActual":{"instanceID":0},"linkedCutscene":{"instanceID":0},"linkedAsset":{"instanceID":0},"endings":[{"resultAction":2,"skipAction":1,"skipActionActual":{"instanceID":96160},"linkedCutscene":{"instanceID":0},"linkedAsset":{"instanceID":0}}],"isEnabled":true,"isAssetFile":false,"isBreakPoint":false,"nodeRect":{"serializedVersion":"2","x":14.0,"y":224.0,"width":300.0,"height":152.0},"overrideColor":{"r":1.0,"g":1.0,"b":1.0,"a":1.0},"showOutputSockets":true,"parentActionListInEditor":{"instanceID":312714398022790013_0},"forceMenus":false,"speechMenuLimit":0,"speechMenuType":0,"limitToCharacters":""}'
+    jsonData: '{"id":0,"isDisplayed":true,"showComment":false,"comment":"","willWait":false,"endAction":0,"skipAction":-1,"skipActionActual":{"instanceID":0},"linkedCutscene":{"instanceID":0},"linkedAsset":{"instanceID":0},"endings":[{"resultAction":2,"skipAction":1,"skipActionActual":{"instanceID":88774},"linkedCutscene":{"instanceID":0},"linkedAsset":{"instanceID":0}}],"isEnabled":true,"isAssetFile":false,"isBreakPoint":false,"nodeRect":{"serializedVersion":"2","x":14.0,"y":224.0,"width":300.0,"height":152.0},"overrideColor":{"r":1.0,"g":1.0,"b":1.0,"a":1.0},"showOutputSockets":true,"parentActionListInEditor":{"instanceID":312714398022790013_0},"forceMenus":false,"speechMenuLimit":0,"speechMenuType":0,"limitToCharacters":""}'
     endingReferencesBuffer: 01
     endingOverrideIndex: 01000000
   - className: AC.ActionSpeech
@@ -4530,7 +4425,7 @@ MonoBehaviour:
     endingReferencesBuffer: 00
     endingOverrideIndex: 00000000
   - className: AC.ActionSpeechStop
-    jsonData: '{"id":0,"isDisplayed":true,"showComment":false,"comment":"","willWait":false,"endAction":0,"skipAction":-1,"skipActionActual":{"instanceID":0},"linkedCutscene":{"instanceID":0},"linkedAsset":{"instanceID":0},"endings":[{"resultAction":2,"skipAction":3,"skipActionActual":{"instanceID":96216},"linkedCutscene":{"instanceID":0},"linkedAsset":{"instanceID":0}}],"isEnabled":true,"isAssetFile":false,"isBreakPoint":false,"nodeRect":{"serializedVersion":"2","x":364.0,"y":224.0,"width":300.0,"height":152.0},"overrideColor":{"r":1.0,"g":1.0,"b":1.0,"a":1.0},"showOutputSockets":true,"parentActionListInEditor":{"instanceID":312714398022790013_0},"forceMenus":false,"speechMenuLimit":0,"speechMenuType":0,"limitToCharacters":""}'
+    jsonData: '{"id":0,"isDisplayed":true,"showComment":false,"comment":"","willWait":false,"endAction":0,"skipAction":-1,"skipActionActual":{"instanceID":0},"linkedCutscene":{"instanceID":0},"linkedAsset":{"instanceID":0},"endings":[{"resultAction":2,"skipAction":3,"skipActionActual":{"instanceID":88820},"linkedCutscene":{"instanceID":0},"linkedAsset":{"instanceID":0}}],"isEnabled":true,"isAssetFile":false,"isBreakPoint":false,"nodeRect":{"serializedVersion":"2","x":364.0,"y":224.0,"width":300.0,"height":152.0},"overrideColor":{"r":1.0,"g":1.0,"b":1.0,"a":1.0},"showOutputSockets":true,"parentActionListInEditor":{"instanceID":312714398022790013_0},"forceMenus":false,"speechMenuLimit":0,"speechMenuType":0,"limitToCharacters":""}'
     endingReferencesBuffer: 01
     endingOverrideIndex: 03000000
   - className: AC.ActionSpeech
@@ -4811,27 +4706,27 @@ MonoBehaviour:
   syncParamValues: 1
   backupData:
   - className: AC.ActionRunActionList
-    jsonData: '{"id":0,"isDisplayed":true,"showComment":false,"comment":"","willWait":false,"endAction":0,"skipAction":-1,"skipActionActual":{"instanceID":0},"linkedCutscene":{"instanceID":0},"linkedAsset":{"instanceID":0},"endings":[{"resultAction":2,"skipAction":2,"skipActionActual":{"instanceID":96100},"linkedCutscene":{"instanceID":0},"linkedAsset":{"instanceID":0}}],"isEnabled":true,"isAssetFile":false,"isBreakPoint":false,"nodeRect":{"serializedVersion":"2","x":14.0,"y":14.0,"width":300.0,"height":172.0},"overrideColor":{"r":1.0,"g":1.0,"b":1.0,"a":1.0},"showOutputSockets":true,"parentActionListInEditor":{"instanceID":3560017671402566838_0},"listSource":1,"actionList":{"instanceID":0},"constantID":0,"parameterID":-1,"invActionList":{"instanceID":27156},"assetParameterID":-1,"runFromStart":true,"jumpToAction":0,"jumpToActionParameterID":-1,"jumpToActionActual":{"instanceID":0},"runInParallel":true,"isSkippable":false,"localParameters":[],"parameterIDs":[],"setParameters":false,"runMode":0,"hasUpgradedAgain":false}'
+    jsonData: '{"id":0,"isDisplayed":true,"showComment":false,"comment":"","willWait":false,"endAction":0,"skipAction":-1,"skipActionActual":{"instanceID":0},"linkedCutscene":{"instanceID":0},"linkedAsset":{"instanceID":0},"endings":[{"resultAction":2,"skipAction":2,"skipActionActual":{"instanceID":88714},"linkedCutscene":{"instanceID":0},"linkedAsset":{"instanceID":0}}],"isEnabled":true,"isAssetFile":false,"isBreakPoint":false,"nodeRect":{"serializedVersion":"2","x":14.0,"y":14.0,"width":300.0,"height":172.0},"overrideColor":{"r":1.0,"g":1.0,"b":1.0,"a":1.0},"showOutputSockets":true,"parentActionListInEditor":{"instanceID":3560017671402566838_0},"listSource":1,"actionList":{"instanceID":0},"constantID":0,"parameterID":-1,"invActionList":{"instanceID":27170},"assetParameterID":-1,"runFromStart":true,"jumpToAction":0,"jumpToActionParameterID":-1,"jumpToActionActual":{"instanceID":0},"runInParallel":true,"isSkippable":false,"localParameters":[],"parameterIDs":[],"setParameters":false,"runMode":0,"hasUpgradedAgain":false}'
     endingReferencesBuffer: 01
     endingOverrideIndex: 02000000
   - className: AC.ActionSpeech
-    jsonData: "{\"id\":0,\"isDisplayed\":true,\"showComment\":false,\"comment\":\"\",\"willWait\":false,\"endAction\":0,\"skipAction\":-1,\"skipActionActual\":{\"instanceID\":0},\"linkedCutscene\":{\"instanceID\":0},\"linkedAsset\":{\"instanceID\":0},\"endings\":[{\"resultAction\":2,\"skipAction\":3,\"skipActionActual\":{\"instanceID\":96072},\"linkedCutscene\":{\"instanceID\":0},\"linkedAsset\":{\"instanceID\":0}}],\"isEnabled\":true,\"isAssetFile\":false,\"isBreakPoint\":false,\"nodeRect\":{\"serializedVersion\":\"2\",\"x\":14.0,\"y\":640.0,\"width\":300.0,\"height\":222.0},\"overrideColor\":{\"r\":1.0,\"g\":1.0,\"b\":1.0,\"a\":1.0},\"showOutputSockets\":true,\"parentActionListInEditor\":{\"instanceID\":3560017671402566838_0},\"constantID\":0,\"parameterID\":-1,\"messageParameterID\":-1,\"isPlayer\":true,\"playerID\":0,\"speaker\":{\"instanceID\":0},\"messageText\":\"\u30FB\u30FB\u30FB\u3042\u306E\u3001\u30CA\u30F3\u30D1\u306A\u3089\u4ED6\u3092\u5F53\u305F\u3063\u3066\u304F\u3060\u3055\u3044\u3002\\n\u4ECA\u3001\u30AB\u30EC\u30B7\u3068\u5F85\u3061\u5408\u308F\u305B\u4E2D\u306A\u306E\u3067\u3002\",\"lineID\":-1,\"multiLineIDs\":[],\"isBackground\":false,\"noAnimation\":false,\"headClip\":{\"instanceID\":0},\"mouthClip\":{\"instanceID\":0},\"play2DHeadAnim\":false,\"headClip2D\":\"\",\"headLayer\":0,\"play2DMouthAnim\":false,\"mouthClip2D\":\"\",\"mouthLayer\":0,\"waitTimeOffset\":0.0}"
+    jsonData: "{\"id\":0,\"isDisplayed\":true,\"showComment\":false,\"comment\":\"\",\"willWait\":false,\"endAction\":0,\"skipAction\":-1,\"skipActionActual\":{\"instanceID\":0},\"linkedCutscene\":{\"instanceID\":0},\"linkedAsset\":{\"instanceID\":0},\"endings\":[{\"resultAction\":2,\"skipAction\":3,\"skipActionActual\":{\"instanceID\":88686},\"linkedCutscene\":{\"instanceID\":0},\"linkedAsset\":{\"instanceID\":0}}],\"isEnabled\":true,\"isAssetFile\":false,\"isBreakPoint\":false,\"nodeRect\":{\"serializedVersion\":\"2\",\"x\":14.0,\"y\":640.0,\"width\":300.0,\"height\":222.0},\"overrideColor\":{\"r\":1.0,\"g\":1.0,\"b\":1.0,\"a\":1.0},\"showOutputSockets\":true,\"parentActionListInEditor\":{\"instanceID\":3560017671402566838_0},\"constantID\":0,\"parameterID\":-1,\"messageParameterID\":-1,\"isPlayer\":true,\"playerID\":0,\"speaker\":{\"instanceID\":0},\"messageText\":\"\u30FB\u30FB\u30FB\u3042\u306E\u3001\u30CA\u30F3\u30D1\u306A\u3089\u4ED6\u3092\u5F53\u305F\u3063\u3066\u304F\u3060\u3055\u3044\u3002\\n\u4ECA\u3001\u30AB\u30EC\u30B7\u3068\u5F85\u3061\u5408\u308F\u305B\u4E2D\u306A\u306E\u3067\u3002\",\"lineID\":-1,\"multiLineIDs\":[],\"isBackground\":false,\"noAnimation\":false,\"headClip\":{\"instanceID\":0},\"mouthClip\":{\"instanceID\":0},\"play2DHeadAnim\":false,\"headClip2D\":\"\",\"headLayer\":0,\"play2DMouthAnim\":false,\"mouthClip2D\":\"\",\"mouthLayer\":0,\"waitTimeOffset\":0.0}"
     endingReferencesBuffer: 01
     endingOverrideIndex: 03000000
   - className: AC.ActionVarSet
-    jsonData: "{\"id\":0,\"isDisplayed\":true,\"showComment\":false,\"comment\":\"\",\"willWait\":false,\"endAction\":0,\"skipAction\":-1,\"skipActionActual\":{\"instanceID\":0},\"linkedCutscene\":{\"instanceID\":0},\"linkedAsset\":{\"instanceID\":0},\"endings\":[{\"resultAction\":2,\"skipAction\":5,\"skipActionActual\":{\"instanceID\":96318},\"linkedCutscene\":{\"instanceID\":0},\"linkedAsset\":{\"instanceID\":0}}],\"isEnabled\":true,\"isAssetFile\":false,\"isBreakPoint\":false,\"nodeRect\":{\"serializedVersion\":\"2\",\"x\":14.0,\"y\":216.0,\"width\":300.0,\"height\":172.0},\"overrideColor\":{\"r\":1.0,\"g\":1.0,\"b\":1.0,\"a\":1.0},\"showOutputSockets\":true,\"parentActionListInEditor\":{\"instanceID\":3560017671402566838_0},\"setVarMethod\":0,\"setVarMethodString\":0,\"setVarMethodIntBool\":0,\"setVarMethodVector\":0,\"parameterID\":-1,\"variableID\":0,\"variableNumber\":0,\"setParameterID\":-1,\"slotNumber\":0,\"slotNumberParameterID\":-1,\"slotAccountsForOffset\":false,\"intValue\":0,\"floatValue\":0.0,\"boolValue\":0,\"stringValue\":\"\u5F85\u3063\u3066\u308B\u4EBA\",\"formula\":\"\",\"vector3Value\":{\"x\":0.0,\"y\":0.0,\"z\":0.0},\"gameObjectValue\":{\"instanceID\":0},\"unityObjectValue\":{\"instanceID\":0},\"lineID\":-1,\"location\":0,\"menuName\":\"\",\"elementName\":\"\",\"animator\":{\"instanceID\":0},\"parameterName\":\"\",\"variables\":{\"instanceID\":0},\"variablesConstantID\":0,\"placeholderType\":2,\"placeholderPopUpLabelDataID\":-1}"
+    jsonData: "{\"id\":0,\"isDisplayed\":true,\"showComment\":false,\"comment\":\"\",\"willWait\":false,\"endAction\":0,\"skipAction\":-1,\"skipActionActual\":{\"instanceID\":0},\"linkedCutscene\":{\"instanceID\":0},\"linkedAsset\":{\"instanceID\":0},\"endings\":[{\"resultAction\":2,\"skipAction\":5,\"skipActionActual\":{\"instanceID\":88924},\"linkedCutscene\":{\"instanceID\":0},\"linkedAsset\":{\"instanceID\":0}}],\"isEnabled\":true,\"isAssetFile\":false,\"isBreakPoint\":false,\"nodeRect\":{\"serializedVersion\":\"2\",\"x\":14.0,\"y\":216.0,\"width\":300.0,\"height\":172.0},\"overrideColor\":{\"r\":1.0,\"g\":1.0,\"b\":1.0,\"a\":1.0},\"showOutputSockets\":true,\"parentActionListInEditor\":{\"instanceID\":3560017671402566838_0},\"setVarMethod\":0,\"setVarMethodString\":0,\"setVarMethodIntBool\":0,\"setVarMethodVector\":0,\"parameterID\":-1,\"variableID\":0,\"variableNumber\":0,\"setParameterID\":-1,\"slotNumber\":0,\"slotNumberParameterID\":-1,\"slotAccountsForOffset\":false,\"intValue\":0,\"floatValue\":0.0,\"boolValue\":0,\"stringValue\":\"\u5F85\u3063\u3066\u308B\u4EBA\",\"formula\":\"\",\"vector3Value\":{\"x\":0.0,\"y\":0.0,\"z\":0.0},\"gameObjectValue\":{\"instanceID\":0},\"unityObjectValue\":{\"instanceID\":0},\"lineID\":-1,\"location\":0,\"menuName\":\"\",\"elementName\":\"\",\"animator\":{\"instanceID\":0},\"parameterName\":\"\",\"variables\":{\"instanceID\":0},\"variablesConstantID\":0,\"placeholderType\":2,\"placeholderPopUpLabelDataID\":-1}"
     endingReferencesBuffer: 01
     endingOverrideIndex: 05000000
   - className: AC.ActionSpeech
-    jsonData: "{\"id\":0,\"isDisplayed\":true,\"showComment\":false,\"comment\":\"\",\"willWait\":false,\"endAction\":0,\"skipAction\":-1,\"skipActionActual\":{\"instanceID\":0},\"linkedCutscene\":{\"instanceID\":0},\"linkedAsset\":{\"instanceID\":0},\"endings\":[{\"resultAction\":0,\"skipAction\":1,\"skipActionActual\":{\"instanceID\":96284},\"linkedCutscene\":{\"instanceID\":0},\"linkedAsset\":{\"instanceID\":0}}],\"isEnabled\":true,\"isAssetFile\":false,\"isBreakPoint\":false,\"nodeRect\":{\"serializedVersion\":\"2\",\"x\":14.0,\"y\":892.0,\"width\":300.0,\"height\":202.0},\"overrideColor\":{\"r\":1.0,\"g\":1.0,\"b\":1.0,\"a\":1.0},\"showOutputSockets\":true,\"parentActionListInEditor\":{\"instanceID\":3560017671402566838_0},\"constantID\":0,\"parameterID\":-1,\"messageParameterID\":-1,\"isPlayer\":true,\"playerID\":-1,\"speaker\":{\"instanceID\":0},\"messageText\":\"\u30FB\u30FB\u30FB\u30FB\u30FB\u30FB\u305D\u308C\u306B\u3057\u3066\u3082\u3001\\n\u9045\u3044\u306A\u3041\u30FB\u30FB\u30FB\u3002\\n\u30E1\u30FC\u30EB\u306E\u8FD4\u4FE1\u3082\u6765\u306A\u3044\u3057\u3002\",\"lineID\":-1,\"multiLineIDs\":[],\"isBackground\":false,\"noAnimation\":false,\"headClip\":{\"instanceID\":0},\"mouthClip\":{\"instanceID\":0},\"play2DHeadAnim\":false,\"headClip2D\":\"\",\"headLayer\":0,\"play2DMouthAnim\":false,\"mouthClip2D\":\"\",\"mouthLayer\":0,\"waitTimeOffset\":0.0}"
+    jsonData: "{\"id\":0,\"isDisplayed\":true,\"showComment\":false,\"comment\":\"\",\"willWait\":false,\"endAction\":0,\"skipAction\":-1,\"skipActionActual\":{\"instanceID\":0},\"linkedCutscene\":{\"instanceID\":0},\"linkedAsset\":{\"instanceID\":0},\"endings\":[{\"resultAction\":0,\"skipAction\":1,\"skipActionActual\":{\"instanceID\":88888},\"linkedCutscene\":{\"instanceID\":0},\"linkedAsset\":{\"instanceID\":0}}],\"isEnabled\":true,\"isAssetFile\":false,\"isBreakPoint\":false,\"nodeRect\":{\"serializedVersion\":\"2\",\"x\":14.0,\"y\":892.0,\"width\":300.0,\"height\":202.0},\"overrideColor\":{\"r\":1.0,\"g\":1.0,\"b\":1.0,\"a\":1.0},\"showOutputSockets\":true,\"parentActionListInEditor\":{\"instanceID\":3560017671402566838_0},\"constantID\":0,\"parameterID\":-1,\"messageParameterID\":-1,\"isPlayer\":true,\"playerID\":-1,\"speaker\":{\"instanceID\":0},\"messageText\":\"\u30FB\u30FB\u30FB\u30FB\u30FB\u30FB\u305D\u308C\u306B\u3057\u3066\u3082\u3001\\n\u9045\u3044\u306A\u3041\u30FB\u30FB\u30FB\u3002\\n\u30E1\u30FC\u30EB\u306E\u8FD4\u4FE1\u3082\u6765\u306A\u3044\u3057\u3002\",\"lineID\":-1,\"multiLineIDs\":[],\"isBackground\":false,\"noAnimation\":false,\"headClip\":{\"instanceID\":0},\"mouthClip\":{\"instanceID\":0},\"play2DHeadAnim\":false,\"headClip2D\":\"\",\"headLayer\":0,\"play2DMouthAnim\":false,\"mouthClip2D\":\"\",\"mouthLayer\":0,\"waitTimeOffset\":0.0}"
     endingReferencesBuffer: 00
     endingOverrideIndex: 00000000
   - className: AC.ActionSpeech
-    jsonData: "{\"id\":0,\"isDisplayed\":true,\"showComment\":false,\"comment\":\"\",\"willWait\":false,\"endAction\":0,\"skipAction\":-1,\"skipActionActual\":{\"instanceID\":0},\"linkedCutscene\":{\"instanceID\":0},\"linkedAsset\":{\"instanceID\":0},\"endings\":[{\"resultAction\":1,\"skipAction\":1,\"skipActionActual\":{\"instanceID\":96284},\"linkedCutscene\":{\"instanceID\":0},\"linkedAsset\":{\"instanceID\":0}}],\"isEnabled\":true,\"isAssetFile\":false,\"isBreakPoint\":false,\"nodeRect\":{\"serializedVersion\":\"2\",\"x\":14.0,\"y\":1124.0,\"width\":300.0,\"height\":172.0},\"overrideColor\":{\"r\":1.0,\"g\":1.0,\"b\":1.0,\"a\":1.0},\"showOutputSockets\":true,\"parentActionListInEditor\":{\"instanceID\":3560017671402566838_0},\"constantID\":0,\"parameterID\":-1,\"messageParameterID\":-1,\"isPlayer\":true,\"playerID\":-1,\"speaker\":{\"instanceID\":0},\"messageText\":\"\u4F55\u304B\u3042\u3063\u305F\u306E\u304B\u306A\u30FB\u30FB\u30FB\u3002\",\"lineID\":-1,\"multiLineIDs\":[],\"isBackground\":false,\"noAnimation\":false,\"headClip\":{\"instanceID\":0},\"mouthClip\":{\"instanceID\":0},\"play2DHeadAnim\":false,\"headClip2D\":\"\",\"headLayer\":0,\"play2DMouthAnim\":false,\"mouthClip2D\":\"\",\"mouthLayer\":0,\"waitTimeOffset\":0.0}"
+    jsonData: "{\"id\":0,\"isDisplayed\":true,\"showComment\":false,\"comment\":\"\",\"willWait\":false,\"endAction\":0,\"skipAction\":-1,\"skipActionActual\":{\"instanceID\":0},\"linkedCutscene\":{\"instanceID\":0},\"linkedAsset\":{\"instanceID\":0},\"endings\":[{\"resultAction\":1,\"skipAction\":1,\"skipActionActual\":{\"instanceID\":88888},\"linkedCutscene\":{\"instanceID\":0},\"linkedAsset\":{\"instanceID\":0}}],\"isEnabled\":true,\"isAssetFile\":false,\"isBreakPoint\":false,\"nodeRect\":{\"serializedVersion\":\"2\",\"x\":14.0,\"y\":1124.0,\"width\":300.0,\"height\":172.0},\"overrideColor\":{\"r\":1.0,\"g\":1.0,\"b\":1.0,\"a\":1.0},\"showOutputSockets\":true,\"parentActionListInEditor\":{\"instanceID\":3560017671402566838_0},\"constantID\":0,\"parameterID\":-1,\"messageParameterID\":-1,\"isPlayer\":true,\"playerID\":-1,\"speaker\":{\"instanceID\":0},\"messageText\":\"\u4F55\u304B\u3042\u3063\u305F\u306E\u304B\u306A\u30FB\u30FB\u30FB\u3002\",\"lineID\":-1,\"multiLineIDs\":[],\"isBackground\":false,\"noAnimation\":false,\"headClip\":{\"instanceID\":0},\"mouthClip\":{\"instanceID\":0},\"play2DHeadAnim\":false,\"headClip2D\":\"\",\"headLayer\":0,\"play2DMouthAnim\":false,\"mouthClip2D\":\"\",\"mouthLayer\":0,\"waitTimeOffset\":0.0}"
     endingReferencesBuffer: 00
     endingOverrideIndex: 00000000
   - className: AC.ActionSpeech
-    jsonData: "{\"id\":0,\"isDisplayed\":true,\"showComment\":false,\"comment\":\"\",\"willWait\":false,\"endAction\":0,\"skipAction\":-1,\"skipActionActual\":{\"instanceID\":0},\"linkedCutscene\":{\"instanceID\":0},\"linkedAsset\":{\"instanceID\":0},\"endings\":[{\"resultAction\":2,\"skipAction\":1,\"skipActionActual\":{\"instanceID\":96284},\"linkedCutscene\":{\"instanceID\":0},\"linkedAsset\":{\"instanceID\":0}}],\"isEnabled\":true,\"isAssetFile\":false,\"isBreakPoint\":false,\"nodeRect\":{\"serializedVersion\":\"2\",\"x\":14.0,\"y\":418.0,\"width\":300.0,\"height\":192.0},\"overrideColor\":{\"r\":1.0,\"g\":1.0,\"b\":1.0,\"a\":1.0},\"showOutputSockets\":true,\"parentActionListInEditor\":{\"instanceID\":3560017671402566838_0},\"constantID\":0,\"parameterID\":-1,\"messageParameterID\":-1,\"isPlayer\":true,\"playerID\":-1,\"speaker\":{\"instanceID\":0},\"messageText\":\"\u30FB\u30FB\u30FB\u30FB\u30FB\u30FB\u30FB\u30FB\u30FB\u3002\",\"lineID\":-1,\"multiLineIDs\":[],\"isBackground\":false,\"noAnimation\":false,\"headClip\":{\"instanceID\":0},\"mouthClip\":{\"instanceID\":0},\"play2DHeadAnim\":false,\"headClip2D\":\"\",\"headLayer\":0,\"play2DMouthAnim\":false,\"mouthClip2D\":\"\",\"mouthLayer\":0,\"waitTimeOffset\":0.0}"
+    jsonData: "{\"id\":0,\"isDisplayed\":true,\"showComment\":false,\"comment\":\"\",\"willWait\":false,\"endAction\":0,\"skipAction\":-1,\"skipActionActual\":{\"instanceID\":0},\"linkedCutscene\":{\"instanceID\":0},\"linkedAsset\":{\"instanceID\":0},\"endings\":[{\"resultAction\":2,\"skipAction\":1,\"skipActionActual\":{\"instanceID\":88888},\"linkedCutscene\":{\"instanceID\":0},\"linkedAsset\":{\"instanceID\":0}}],\"isEnabled\":true,\"isAssetFile\":false,\"isBreakPoint\":false,\"nodeRect\":{\"serializedVersion\":\"2\",\"x\":14.0,\"y\":418.0,\"width\":300.0,\"height\":192.0},\"overrideColor\":{\"r\":1.0,\"g\":1.0,\"b\":1.0,\"a\":1.0},\"showOutputSockets\":true,\"parentActionListInEditor\":{\"instanceID\":3560017671402566838_0},\"constantID\":0,\"parameterID\":-1,\"messageParameterID\":-1,\"isPlayer\":true,\"playerID\":-1,\"speaker\":{\"instanceID\":0},\"messageText\":\"\u30FB\u30FB\u30FB\u30FB\u30FB\u30FB\u30FB\u30FB\u30FB\u3002\",\"lineID\":-1,\"multiLineIDs\":[],\"isBackground\":false,\"noAnimation\":false,\"headClip\":{\"instanceID\":0},\"mouthClip\":{\"instanceID\":0},\"play2DHeadAnim\":false,\"headClip2D\":\"\",\"headLayer\":0,\"play2DMouthAnim\":false,\"mouthClip2D\":\"\",\"mouthLayer\":0,\"waitTimeOffset\":0.0}"
     endingReferencesBuffer: 01
     endingOverrideIndex: 01000000
 --- !u!4 &3560017671413816694
@@ -4848,7 +4743,7 @@ Transform:
   m_Children:
   - {fileID: 312714398032954045}
   m_Father: {fileID: 5215400827764494141}
-  m_RootOrder: 0
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &3560017671413842262
 GameObject:
@@ -4954,7 +4849,7 @@ MonoBehaviour:
   syncParamValues: 1
   backupData:
   - className: AC.ActionScene
-    jsonData: '{"id":0,"isDisplayed":true,"showComment":false,"comment":"","willWait":false,"endAction":0,"skipAction":-99,"skipActionActual":{"instanceID":0},"linkedCutscene":{"instanceID":0},"linkedAsset":{"instanceID":0},"endings":[],"isEnabled":true,"isAssetFile":false,"isBreakPoint":false,"nodeRect":{"serializedVersion":"2","x":14.0,"y":14.0,"width":300.0,"height":164.0},"overrideColor":{"r":1.0,"g":1.0,"b":1.0,"a":1.0},"showOutputSockets":true,"parentActionListInEditor":{"instanceID":4975843373719790059_0},"chooseSceneBy":1,"sceneNumber":0,"sceneNumberParameterID":-1,"sceneName":"Apartment","sceneNameParameterID":-1,"assignScreenOverlay":false,"onlyPreload":false,"relativePosition":false,"relativeMarker":{"instanceID":0},"relativeMarkerID":0,"relativeMarkerParameterID":-1,"forceReload":false}'
+    jsonData: '{"id":0,"isDisplayed":true,"showComment":false,"comment":"","willWait":false,"endAction":0,"skipAction":-99,"skipActionActual":{"instanceID":0},"linkedCutscene":{"instanceID":0},"linkedAsset":{"instanceID":0},"endings":[],"isEnabled":true,"isAssetFile":false,"isBreakPoint":false,"nodeRect":{"serializedVersion":"2","x":14.0,"y":14.0,"width":300.0,"height":164.0},"overrideColor":{"r":1.0,"g":1.0,"b":1.0,"a":1.0},"showOutputSockets":true,"parentActionListInEditor":{"instanceID":4975843373719790059_0},"chooseSceneBy":1,"sceneNumber":0,"sceneNumberParameterID":-1,"sceneName":"Mitaka","sceneNameParameterID":-1,"assignScreenOverlay":false,"onlyPreload":false,"relativePosition":false,"relativeMarker":{"instanceID":0},"relativeMarkerID":0,"relativeMarkerParameterID":-1,"forceReload":false}'
     endingReferencesBuffer: 
     endingOverrideIndex: 
   detects: 0
@@ -4998,10 +4893,10 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
+  - {fileID: 1687702114}
   - {fileID: 3560017671413816694}
   - {fileID: 7971124568142267561}
   - {fileID: 1627530829}
-  - {fileID: 1687702114}
   m_Father: {fileID: 553829357}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -5203,10 +5098,10 @@ MonoBehaviour:
     order: 1
     layer: 
     color: {r: 0.44611937, g: 0.35701972, b: 0.7538928, a: 1}
-    scale: 7500
+    scale: 100
   affectScale: 1
   affectSpeed: 1
-  originScale: 7500
+  originScale: 100
   sortingMapScaleType: 0
   scalingAnimationCurve:
     serializedVersion: 2
@@ -5428,12 +5323,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7971124568142491263}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 63, y: 9, z: 0}
+  m_LocalPosition: {x: 65, y: -75, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 5215400827764494141}
-  m_RootOrder: 1
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &7971124568142491263
 GameObject:
