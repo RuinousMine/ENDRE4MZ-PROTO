@@ -53,14 +53,14 @@ MonoBehaviour:
     linkedCutscene: {fileID: 0}
     linkedAsset: {fileID: 0}
   isEnabled: 1
-  isAssetFile: 0
+  isAssetFile: 1
   isBreakPoint: 0
   nodeRect:
     serializedVersion: 2
-    x: 0
-    y: 0
+    x: 14
+    y: 14
     width: 300
-    height: 60
+    height: 132
   overrideColor: {r: 1, g: 1, b: 1, a: 1}
   showOutputSockets: 1
   parentActionListInEditor: {fileID: 0}
@@ -69,8 +69,8 @@ MonoBehaviour:
   setVarMethodIntBool: 0
   setVarMethodVector: 0
   parameterID: -1
-  variableID: 0
-  variableNumber: 0
+  variableID: 15
+  variableNumber: 15
   setParameterID: -1
   slotNumber: 0
   slotNumberParameterID: -1
@@ -91,5 +91,5 @@ MonoBehaviour:
   parameterName: 
   variables: {fileID: 0}
   variablesConstantID: 0
-  placeholderType: 0
+  placeholderType: 6
   placeholderPopUpLabelDataID: -1
