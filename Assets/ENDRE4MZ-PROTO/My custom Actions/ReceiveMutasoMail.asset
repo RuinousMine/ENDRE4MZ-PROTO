@@ -163,8 +163,8 @@ MonoBehaviour:
   linkedCutsceneFail: {fileID: 0}
   linkedAssetFail: {fileID: 0}
   parameterID: -1
-  variableID: 9
-  variableNumber: 9
+  variableID: 14
+  variableNumber: 14
   checkParameterID: -1
   getVarMethod: 0
   compareVariableID: 0
@@ -282,7 +282,7 @@ MonoBehaviour:
     x: 598
     y: 524.87256
     width: 300
-    height: 178
+    height: 132
   overrideColor: {r: 1, g: 1, b: 1, a: 1}
   showOutputSockets: 1
   parentActionListInEditor: {fileID: 0}
@@ -301,7 +301,7 @@ MonoBehaviour:
   vectorVarID: 0
   variableLocation: 0
   invAction: 0
-  positionRelativeTo: 3
+  positionRelativeTo: 0
   variables: {fileID: 0}
   variablesConstantID: 0
   spawnedObjectParameterID: -1
