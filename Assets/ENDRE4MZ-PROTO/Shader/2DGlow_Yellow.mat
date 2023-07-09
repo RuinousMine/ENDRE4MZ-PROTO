@@ -7,7 +7,7 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: 2DGlow
+  m_Name: 2DGlow_Yellow
   m_Shader: {fileID: -6465566751694194690, guid: 5491577795a8548eead86ec035a7ea16, type: 3}
   m_ValidKeywords: []
   m_InvalidKeywords: []
@@ -58,6 +58,6 @@ Material:
     m_Colors:
     - _Color: {r: 1, g: 1, b: 1, a: 1}
     - _Flip: {r: 1, g: 1, b: 1, a: 1}
-    - _GlowColor: {r: 1.7568628, g: 1.7568628, b: 16, a: 0}
+    - _GlowColor: {r: 445.72195, g: 139.83435, b: 0, a: 0}
     - _RendererColor: {r: 1, g: 1, b: 1, a: 1}
   m_BuildTextureStacks: []
