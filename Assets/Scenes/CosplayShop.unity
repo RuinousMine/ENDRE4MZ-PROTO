@@ -734,7 +734,7 @@ MonoBehaviour:
     x: 745.64996
     y: 681.79126
     width: 300
-    height: 217
+    height: 215
   overrideColor: {r: 1, g: 1, b: 1, a: 1}
   showOutputSockets: 1
   parentActionListInEditor: {fileID: 312714398022790013}
@@ -1266,7 +1266,7 @@ MonoBehaviour:
     x: 746.64996
     y: 466.75
     width: 300
-    height: 187
+    height: 186
   overrideColor: {r: 1, g: 1, b: 1, a: 1}
   showOutputSockets: 1
   parentActionListInEditor: {fileID: 312714398022790013}
@@ -1534,7 +1534,7 @@ MonoBehaviour:
   endings:
   - resultAction: 2
     skipAction: 16
-    skipActionActual: {fileID: 2048619498}
+    skipActionActual: {fileID: 974433191}
     linkedCutscene: {fileID: 0}
     linkedAsset: {fileID: 0}
   isEnabled: 1
@@ -1680,7 +1680,7 @@ MonoBehaviour:
     x: 364
     y: 848
     width: 300
-    height: 252
+    height: 249.5
   overrideColor: {r: 1, g: 1, b: 1, a: 1}
   showOutputSockets: 1
   parentActionListInEditor: {fileID: 312714398022790013}
@@ -1740,7 +1740,7 @@ MonoBehaviour:
     x: 364
     y: 1130
     width: 300
-    height: 237
+    height: 235
   overrideColor: {r: 1, g: 1, b: 1, a: 1}
   showOutputSockets: 1
   parentActionListInEditor: {fileID: 312714398022790013}
@@ -1800,7 +1800,7 @@ MonoBehaviour:
     x: 14
     y: 596
     width: 300
-    height: 222
+    height: 220.5
   overrideColor: {r: 1, g: 1, b: 1, a: 1}
   showOutputSockets: 1
   parentActionListInEditor: {fileID: 312714398022790013}
@@ -1929,7 +1929,7 @@ MonoBehaviour:
     x: 364
     y: 605
     width: 300
-    height: 222
+    height: 220.5
   overrideColor: {r: 1, g: 1, b: 1, a: 1}
   showOutputSockets: 1
   parentActionListInEditor: {fileID: 312714398022790013}
@@ -2122,7 +2122,7 @@ MonoBehaviour:
     x: 748.64996
     y: 933.24805
     width: 300
-    height: 202
+    height: 200.5
   overrideColor: {r: 1, g: 1, b: 1, a: 1}
   showOutputSockets: 1
   parentActionListInEditor: {fileID: 312714398022790013}
@@ -3455,7 +3455,7 @@ MonoBehaviour:
     x: 14
     y: 418
     width: 300
-    height: 187
+    height: 186
   overrideColor: {r: 1, g: 1, b: 1, a: 1}
   showOutputSockets: 1
   parentActionListInEditor: {fileID: 3560017671402566838}
@@ -3755,7 +3755,7 @@ MonoBehaviour:
     x: 14
     y: 848
     width: 300
-    height: 217
+    height: 215
   overrideColor: {r: 1, g: 1, b: 1, a: 1}
   showOutputSockets: 1
   parentActionListInEditor: {fileID: 312714398022790013}
@@ -4911,75 +4911,6 @@ MonoBehaviour:
   setParameters: 0
   runMode: 0
   hasUpgradedAgain: 0
---- !u!114 &2048619498
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c0f86ace5fdd94f0a86553230ec9308f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  id: 0
-  isDisplayed: 1
-  showComment: 0
-  comment: 
-  willWait: 0
-  endAction: 0
-  skipAction: -1
-  skipActionActual: {fileID: 0}
-  linkedCutscene: {fileID: 0}
-  linkedAsset: {fileID: 0}
-  endings:
-  - resultAction: 1
-    skipAction: 1
-    skipActionActual: {fileID: 949649427}
-    linkedCutscene: {fileID: 0}
-    linkedAsset: {fileID: 0}
-  isEnabled: 1
-  isAssetFile: 0
-  isBreakPoint: 0
-  nodeRect:
-    serializedVersion: 2
-    x: 364
-    y: 1626.5974
-    width: 300
-    height: 152
-  overrideColor: {r: 1, g: 1, b: 1, a: 1}
-  showOutputSockets: 1
-  parentActionListInEditor: {fileID: 0}
-  setVarMethod: 0
-  setVarMethodString: 0
-  setVarMethodIntBool: 0
-  setVarMethodVector: 0
-  parameterID: -1
-  variableID: 14
-  variableNumber: 14
-  setParameterID: -1
-  slotNumber: 0
-  slotNumberParameterID: -1
-  slotAccountsForOffset: 0
-  intValue: 0
-  floatValue: 0
-  boolValue: 1
-  stringValue: 
-  formula: 
-  vector3Value: {x: 0, y: 0, z: 0}
-  gameObjectValue: {fileID: 0}
-  unityObjectValue: {fileID: 0}
-  lineID: -1
-  location: 0
-  menuName: 
-  elementName: 
-  animator: {fileID: 0}
-  parameterName: 
-  variables: {fileID: 0}
-  variablesConstantID: 0
-  placeholderType: 0
-  placeholderPopUpLabelDataID: -1
 --- !u!114 &2070039162
 MonoBehaviour:
   m_ObjectHideFlags: 0
