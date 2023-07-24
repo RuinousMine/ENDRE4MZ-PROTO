@@ -2691,17 +2691,11 @@ EdgeCollider2D:
   m_Offset: {x: 0, y: 0}
   m_EdgeRadius: 5
   m_Points:
-  - {x: 0.5656433, y: 138.51636}
-  - {x: -1.3436127, y: -86.30229}
-  - {x: 44.377213, y: -85.21709}
-  - {x: 88.785706, y: -84.77258}
-  - {x: 198.58305, y: -85.693146}
-  - {x: 259.356, y: -86.392365}
-  - {x: 1633.9542, y: -89.70669}
-  - {x: 1635.0215, y: 117.56635}
-  - {x: 1643.5114, y: 125.03235}
-  - {x: 294.81485, y: 132.19687}
-  - {x: 2.5870667, y: 136.37584}
+  - {x: 101.85477, y: 51.930527}
+  - {x: 103.212845, y: -87.93599}
+  - {x: 1524.5048, y: -98.2867}
+  - {x: 1521.5361, y: 31.219788}
+  - {x: 103.82872, y: 31.932892}
   m_AdjacentStartPoint: {x: 0, y: 0}
   m_AdjacentEndPoint: {x: 0, y: 0}
   m_UseAdjacentStartPoint: 0
@@ -3982,7 +3976,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 129286601913945110}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 1282, y: 13, z: -10}
+  m_LocalPosition: {x: 488, y: 34, z: -10}
   m_LocalScale: {x: 100, y: 100, z: 100}
   m_ConstrainProportionsScale: 1
   m_Children: []

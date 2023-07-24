@@ -12,9 +12,455 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f5a2543a119f842959d20e84db3140dd, type: 3}
   m_Name: ENDRE4MZ-PROTO_InventoryManager
   m_EditorClassIdentifier: 
-  items: []
-  bins: []
-  invVars: []
+  items:
+  - label: Money
+    id: 0
+    altLabel: "\u304A\u304B\u306D"
+    carryOnStart: 1
+    carryOnStartNotDefault: 0
+    carryOnStartIDs: 00000000
+    vars:
+    - label: ItemName
+      id: 1
+      type: 2
+      val: 0
+      floatVal: 0
+      textVal: "\u304A\u304B\u306D"
+      gameObjectVal: {fileID: 0}
+      gameObjectSaveReferences: 1
+      objectVal: {fileID: 0}
+      popUps: []
+      vector3Val: {x: 0, y: 0, z: 0}
+      link: 0
+      pmVar: 
+      updateLinkOnStart: 0
+      canTranslate: 1
+      popUpID: 0
+      textValLineID: -1
+      popUpsLineID: -1
+      description: 
+      showInFilter: 0
+      limitToCategories: 0
+      categoryIDs: 
+    - label: ItemDescripiton
+      id: 0
+      type: 2
+      val: 0
+      floatVal: 0
+      textVal: "\u3053\u308C\u3067\u5927\u4F53\u306E\u3082\u306E\u306F\u8CB7\u3048\u305F\u308A\u8CB7\u3048\u306A\u304B\u3063\u305F\u308A\u3059\u308B\u3002"
+      gameObjectVal: {fileID: 0}
+      gameObjectSaveReferences: 1
+      objectVal: {fileID: 0}
+      popUps: []
+      vector3Val: {x: 0, y: 0, z: 0}
+      link: 0
+      pmVar: 
+      updateLinkOnStart: 0
+      canTranslate: 1
+      popUpID: 0
+      textValLineID: -1
+      popUpsLineID: -1
+      description: 
+      showInFilter: 0
+      limitToCategories: 0
+      categoryIDs: 
+    canCarryMultiple: 1
+    count: 500
+    canBeLowerCase: 0
+    maxCount: 9900
+    itemStackingMode: 0
+    tex: {fileID: 2800000, guid: 6788f79d464184b5eac436f2713c8ceb, type: 3}
+    activeTex: {fileID: 2800000, guid: 6788f79d464184b5eac436f2713c8ceb, type: 3}
+    selectedTex: {fileID: 0}
+    linkedPrefab: {fileID: 0}
+    cursorIcon:
+      texture: {fileID: 0}
+      isAnimated: 0
+      numFrames: 1
+      numRows: 1
+      numCols: 1
+      size: 0.04
+      animSpeed: 4
+      endAnimOnLastFrame: 0
+      skipFirstFrameWhenLooping: 0
+      clickOffset: {x: 0, y: 0}
+      frameSpeeds: []
+      alwaysAnimate: 0
+      dontCycle: 0
+      label: Icon 1
+      lineID: -1
+      id: 0
+    lineID: -1
+    useIconID: 0
+    binID: 0
+    overrideUseSyntax: 0
+    hotspotPrefix1:
+      label: Use
+      lineID: -1
+    hotspotPrefix2:
+      label: on
+      lineID: -1
+    useActionList: {fileID: 0}
+    lookActionList: {fileID: 0}
+    interactions: []
+    combineInteractions: []
+    combineActionList: []
+    combineID: 
+    unhandledActionList: {fileID: 0}
+    unhandledCombineActionList: {fileID: 0}
+    carryOnStartID: -1
+    useSeparateSlots: 0
+    selectSingle: 0
+    showInFilter: 1
+  - label: Bottle of water
+    id: 1
+    altLabel: "\u5929\u7136\u6C34"
+    carryOnStart: 1
+    carryOnStartNotDefault: 0
+    carryOnStartIDs: 00000000
+    vars:
+    - label: ItemName
+      id: 1
+      type: 2
+      val: 0
+      floatVal: 0
+      textVal: "\u5929\u7136\u6C34"
+      gameObjectVal: {fileID: 0}
+      gameObjectSaveReferences: 1
+      objectVal: {fileID: 0}
+      popUps: []
+      vector3Val: {x: 0, y: 0, z: 0}
+      link: 0
+      pmVar: 
+      updateLinkOnStart: 0
+      canTranslate: 1
+      popUpID: 0
+      textValLineID: -1
+      popUpsLineID: -1
+      description: 
+      showInFilter: 0
+      limitToCategories: 0
+      categoryIDs: 
+    - label: ItemDescripiton
+      id: 0
+      type: 2
+      val: 0
+      floatVal: 0
+      textVal: "\u3069\u3053\u306B\u3067\u3082\u58F2\u3063\u3066\u3044\u308B\u5929\u7136\u6C34\u3002\u8EDF\u6C34\u3067\u98F2\u307F\u3084\u3059\u3044\u3002500ml\u3002"
+      gameObjectVal: {fileID: 0}
+      gameObjectSaveReferences: 1
+      objectVal: {fileID: 0}
+      popUps: []
+      vector3Val: {x: 0, y: 0, z: 0}
+      link: 0
+      pmVar: 
+      updateLinkOnStart: 0
+      canTranslate: 1
+      popUpID: 0
+      textValLineID: -1
+      popUpsLineID: -1
+      description: 
+      showInFilter: 0
+      limitToCategories: 0
+      categoryIDs: 
+    canCarryMultiple: 1
+    count: 1
+    canBeLowerCase: 0
+    maxCount: 999
+    itemStackingMode: 0
+    tex: {fileID: 2800000, guid: 4b123cab9a98f43c98a9ea9cf91df3b8, type: 3}
+    activeTex: {fileID: 2800000, guid: 0a4237bd77f6a40c98dbdd68a33fece5, type: 3}
+    selectedTex: {fileID: 0}
+    linkedPrefab: {fileID: 0}
+    cursorIcon:
+      texture: {fileID: 0}
+      isAnimated: 0
+      numFrames: 1
+      numRows: 1
+      numCols: 1
+      size: 0.04
+      animSpeed: 4
+      endAnimOnLastFrame: 0
+      skipFirstFrameWhenLooping: 0
+      clickOffset: {x: 0, y: 0}
+      frameSpeeds: []
+      alwaysAnimate: 0
+      dontCycle: 0
+      label: Icon 1
+      lineID: -1
+      id: 0
+    lineID: -1
+    useIconID: 0
+    binID: 1
+    overrideUseSyntax: 0
+    hotspotPrefix1:
+      label: Use
+      lineID: -1
+    hotspotPrefix2:
+      label: on
+      lineID: -1
+    useActionList: {fileID: 0}
+    lookActionList: {fileID: 0}
+    interactions: []
+    combineInteractions: []
+    combineActionList: []
+    combineID: 
+    unhandledActionList: {fileID: 0}
+    unhandledCombineActionList: {fileID: 0}
+    carryOnStartID: -1
+    useSeparateSlots: 0
+    selectSingle: 0
+    showInFilter: 1
+  - label: RubberMas_Bauklo
+    id: 2
+    altLabel: 
+    carryOnStart: 0
+    carryOnStartNotDefault: 0
+    carryOnStartIDs: 00000000
+    vars:
+    - label: ItemName
+      id: 1
+      type: 2
+      val: 0
+      floatVal: 0
+      textVal: "\u30D0\u30AF\u30ED\u3061\u3083\u3093\u30E9\u30D0\u30FC\u30DE\u30B9\u30B3\u30C3\u30C8"
+      gameObjectVal: {fileID: 0}
+      gameObjectSaveReferences: 1
+      objectVal: {fileID: 0}
+      popUps: []
+      vector3Val: {x: 0, y: 0, z: 0}
+      link: 0
+      pmVar: 
+      updateLinkOnStart: 0
+      canTranslate: 1
+      popUpID: 0
+      textValLineID: -1
+      popUpsLineID: -1
+      description: 
+      showInFilter: 0
+      limitToCategories: 0
+      categoryIDs: 
+    - label: ItemDescripiton
+      id: 0
+      type: 2
+      val: 0
+      floatVal: 0
+      textVal: "\u8AB0\u304B\u306E\u304A\u3068\u3057\u3082\u306E\u3002\n\u30A2\u30CB\u30E1\u300E\u9670\u8B00\u90AA\u4F1D\u30B9\u30BF\u30FC\u30A2\u30A4\u30BA\u300F\u306E\u5927\u4EBA\u6C17\u30AD\u30E3\u30E9\u3001\u30D0\u30AF\u30ED\u3061\u3083\u3093\u304C\u304B\u305F\u3069\u3089\u308C\u3066\u3044\u308B\u3002\u610F\u5916\u3068\u4F5C\u308A\u304C\u3044\u3044\u3002"
+      gameObjectVal: {fileID: 0}
+      gameObjectSaveReferences: 1
+      objectVal: {fileID: 0}
+      popUps: []
+      vector3Val: {x: 0, y: 0, z: 0}
+      link: 0
+      pmVar: 
+      updateLinkOnStart: 0
+      canTranslate: 1
+      popUpID: 0
+      textValLineID: -1
+      popUpsLineID: -1
+      description: 
+      showInFilter: 0
+      limitToCategories: 0
+      categoryIDs: 
+    canCarryMultiple: 0
+    count: 1
+    canBeLowerCase: 0
+    maxCount: 999
+    itemStackingMode: 0
+    tex: {fileID: 2800000, guid: cb0a05da74df848db84bd049151e5772, type: 3}
+    activeTex: {fileID: 2800000, guid: cb0a05da74df848db84bd049151e5772, type: 3}
+    selectedTex: {fileID: 0}
+    linkedPrefab: {fileID: 0}
+    cursorIcon:
+      texture: {fileID: 0}
+      isAnimated: 0
+      numFrames: 1
+      numRows: 1
+      numCols: 1
+      size: 0.04
+      animSpeed: 4
+      endAnimOnLastFrame: 0
+      skipFirstFrameWhenLooping: 0
+      clickOffset: {x: 0, y: 0}
+      frameSpeeds: []
+      alwaysAnimate: 0
+      dontCycle: 0
+      label: Icon 1
+      lineID: -1
+      id: 0
+    lineID: -1
+    useIconID: 0
+    binID: 1
+    overrideUseSyntax: 0
+    hotspotPrefix1:
+      label: Use
+      lineID: -1
+    hotspotPrefix2:
+      label: on
+      lineID: -1
+    useActionList: {fileID: 0}
+    lookActionList: {fileID: 0}
+    interactions: []
+    combineInteractions: []
+    combineActionList: []
+    combineID: 
+    unhandledActionList: {fileID: 0}
+    unhandledCombineActionList: {fileID: 0}
+    carryOnStartID: -1
+    useSeparateSlots: 0
+    selectSingle: 0
+    showInFilter: 1
+  - label: MemorialCoin
+    id: 3
+    altLabel: "\u8A18\u5FF5\u30B3\u30A4\u30F3"
+    carryOnStart: 0
+    carryOnStartNotDefault: 0
+    carryOnStartIDs: 00000000
+    vars:
+    - label: ItemName
+      id: 1
+      type: 2
+      val: 0
+      floatVal: 0
+      textVal: "\u8A18\u5FF5\u30B3\u30A4\u30F3"
+      gameObjectVal: {fileID: 0}
+      gameObjectSaveReferences: 1
+      objectVal: {fileID: 0}
+      popUps: []
+      vector3Val: {x: 0, y: 0, z: 0}
+      link: 0
+      pmVar: 
+      updateLinkOnStart: 0
+      canTranslate: 1
+      popUpID: 0
+      textValLineID: -1
+      popUpsLineID: -1
+      description: 
+      showInFilter: 0
+      limitToCategories: 0
+      categoryIDs: 
+    - label: ItemDescripiton
+      id: 0
+      type: 2
+      val: 0
+      floatVal: 0
+      textVal: "\u306A\u306B\u304B\u3092\u8A18\u5FF5\u3057\u305F\u30B3\u30A4\u30F3\u3002\u3051\u3063\u3053\u3046\u5E74\u4EE3\u7269\u3063\u307D\u3044\u3002\n\u4EBA\u306B\u3088\u3063\u3066\u306F\u3068\u3063\u3066\u3082\u8CB4\u91CD\u306A\u3082\u306E\u3089\u3057\u3044\u3002"
+      gameObjectVal: {fileID: 0}
+      gameObjectSaveReferences: 1
+      objectVal: {fileID: 0}
+      popUps: []
+      vector3Val: {x: 0, y: 0, z: 0}
+      link: 0
+      pmVar: 
+      updateLinkOnStart: 0
+      canTranslate: 1
+      popUpID: 0
+      textValLineID: -1
+      popUpsLineID: -1
+      description: 
+      showInFilter: 0
+      limitToCategories: 0
+      categoryIDs: 
+    canCarryMultiple: 0
+    count: 1
+    canBeLowerCase: 0
+    maxCount: 999
+    itemStackingMode: 0
+    tex: {fileID: 2800000, guid: ad4a38690f43146d9ac484378a6e6c19, type: 3}
+    activeTex: {fileID: 2800000, guid: ad4a38690f43146d9ac484378a6e6c19, type: 3}
+    selectedTex: {fileID: 0}
+    linkedPrefab: {fileID: 0}
+    cursorIcon:
+      texture: {fileID: 0}
+      isAnimated: 0
+      numFrames: 1
+      numRows: 1
+      numCols: 1
+      size: 0.04
+      animSpeed: 4
+      endAnimOnLastFrame: 0
+      skipFirstFrameWhenLooping: 0
+      clickOffset: {x: 0, y: 0}
+      frameSpeeds: []
+      alwaysAnimate: 0
+      dontCycle: 0
+      label: Icon 1
+      lineID: -1
+      id: 0
+    lineID: -1
+    useIconID: 0
+    binID: 2
+    overrideUseSyntax: 0
+    hotspotPrefix1:
+      label: Use
+      lineID: -1
+    hotspotPrefix2:
+      label: on
+      lineID: -1
+    useActionList: {fileID: 0}
+    lookActionList: {fileID: 0}
+    interactions: []
+    combineInteractions: []
+    combineActionList: []
+    combineID: 
+    unhandledActionList: {fileID: 0}
+    unhandledCombineActionList: {fileID: 0}
+    carryOnStartID: -1
+    useSeparateSlots: 0
+    selectSingle: 0
+    showInFilter: 1
+  bins:
+  - label: Money
+    id: 0
+  - label: Consumable
+    id: 1
+  - label: Collectable
+    id: 2
+  invVars:
+  - label: ItemName
+    id: 1
+    type: 2
+    val: 0
+    floatVal: 0
+    textVal: 
+    gameObjectVal: {fileID: 0}
+    gameObjectSaveReferences: 1
+    objectVal: {fileID: 0}
+    popUps: []
+    vector3Val: {x: 0, y: 0, z: 0}
+    link: 0
+    pmVar: 
+    updateLinkOnStart: 0
+    canTranslate: 1
+    popUpID: 0
+    textValLineID: -1
+    popUpsLineID: -1
+    description: 
+    showInFilter: 0
+    limitToCategories: 0
+    categoryIDs: 
+  - label: ItemDescripiton
+    id: 0
+    type: 2
+    val: 0
+    floatVal: 0
+    textVal: 
+    gameObjectVal: {fileID: 0}
+    gameObjectSaveReferences: 1
+    objectVal: {fileID: 0}
+    popUps: []
+    vector3Val: {x: 0, y: 0, z: 0}
+    link: 0
+    pmVar: 
+    updateLinkOnStart: 0
+    canTranslate: 1
+    popUpID: 0
+    textValLineID: -1
+    popUpsLineID: -1
+    description: 
+    showInFilter: 0
+    limitToCategories: 0
+    categoryIDs: 
   unhandledCombine: {fileID: 0}
   unhandledHotspot: {fileID: 0}
   passUnhandledHotspotAsParameter: 0
