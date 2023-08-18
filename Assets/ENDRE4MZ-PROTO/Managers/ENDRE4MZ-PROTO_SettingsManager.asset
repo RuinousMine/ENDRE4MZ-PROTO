@@ -106,14 +106,14 @@ MonoBehaviour:
   shareInventory: 0
   inventoryDragDrop: 0
   dragDropThreshold: 0
-  allowInventoryInteractionsDuringConversations: 0
+  allowInventoryInteractionsDuringConversations: 1
   inventoryDropLook: 0
   inventoryDropLookNoDrag: 0
   inventoryInteractions: 1
-  inventoryDisableLeft: 1
+  inventoryDisableLeft: 0
   allowDefaultInventoryInteractions: 0
-  inventoryDisableUnhandled: 1
-  inventoryDisableDefined: 1
+  inventoryDisableUnhandled: 0
+  inventoryDisableDefined: 0
   inventoryInteractionsHaltPlayer: 1
   activeWhenHover: 0
   inventoryActiveEffect: 1
@@ -121,7 +121,7 @@ MonoBehaviour:
   activeWhenUnhandled: 1
   canReorderItems: 0
   selectInventoryDisplay: 0
-  rightClickInventory: 0
+  rightClickInventory: 2
   reverseInventoryCombinations: 0
   canMoveWhenActive: 1
   selectInvWithUnhandled: 0
@@ -262,11 +262,11 @@ MonoBehaviour:
     relativeVolume: 0.3
     overrideMixerGroup: {fileID: 24300002, guid: aa0d56dce3c0a4f4a99b6fd8b2966772, type: 2}
   - ID: 2
-    audioClip: {fileID: 8300000, guid: 99cdae80d935c421fb6d40ef95c8e2b9, type: 3}
+    audioClip: {fileID: 8300000, guid: 61d55a422865e458da2de93ec87e50bb, type: 3}
     relativeVolume: 0.1
-    overrideMixerGroup: {fileID: 0}
+    overrideMixerGroup: {fileID: -5462593935157864827, guid: a4ecb8c84abf349318e75c5c6bcd7142, type: 2}
   - ID: 3
-    audioClip: {fileID: 8300000, guid: ed8f694cea6274f598c73d7c32f97401, type: 3}
+    audioClip: {fileID: 8300000, guid: 41bd4ba63a91a4ee4addd6c57c7496c3, type: 3}
     relativeVolume: 0.079
     overrideMixerGroup: {fileID: -6651466684436704902, guid: 1d5e31a61067147ffa4399e79a5a7ed3, type: 2}
   - ID: 4
@@ -276,11 +276,23 @@ MonoBehaviour:
   - ID: 5
     audioClip: {fileID: 8300000, guid: a54aafbc05fef4e5cad62e37a8465645, type: 3}
     relativeVolume: 1
-    overrideMixerGroup: {fileID: 24300002, guid: aa0d56dce3c0a4f4a99b6fd8b2966772, type: 2}
+    overrideMixerGroup: {fileID: 1781126504934932256, guid: aa0d56dce3c0a4f4a99b6fd8b2966772, type: 2}
   - ID: 6
-    audioClip: {fileID: 8300000, guid: e388a06d44b654f05af731ab65ac522c, type: 3}
-    relativeVolume: 0.059
+    audioClip: {fileID: 8300000, guid: 2a35a31d2d4f6445c83f190abec550c1, type: 3}
+<<<<<<< HEAD
+    relativeVolume: 0.094
+=======
+    relativeVolume: 0.42
+>>>>>>> parent of 13390a20 (tenkey)
     overrideMixerGroup: {fileID: -6651466684436704902, guid: 1d5e31a61067147ffa4399e79a5a7ed3, type: 2}
+  - ID: 7
+    audioClip: {fileID: 8300000, guid: d9a8bbb0f840d447984190ecacd878ff, type: 3}
+    relativeVolume: 0.047
+    overrideMixerGroup: {fileID: -5462593935157864827, guid: a4ecb8c84abf349318e75c5c6bcd7142, type: 2}
+  - ID: 8
+    audioClip: {fileID: 8300000, guid: 2e7b8300c065340e4a076b105c24d154, type: 3}
+    relativeVolume: 1
+    overrideMixerGroup: {fileID: 0}
   loadAmbienceFadeTime: 0.2
   crossfadeAmbienceWhenLoading: 0
   restartAmbienceTrackWhenLoading: 0
