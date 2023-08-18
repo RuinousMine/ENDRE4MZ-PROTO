@@ -37,7 +37,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 324, y: -25}
+  m_AnchoredPosition: {x: 324, y: 5}
   m_SizeDelta: {x: 213.8901, y: 144.7634}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &3664066457294038428
@@ -152,11 +152,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0cd44c1031e13a943bb63640046fad76, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_UiScaleMode: 0
-  m_ReferencePixelsPerUnit: 100
+  m_UiScaleMode: 1
+  m_ReferencePixelsPerUnit: 1
   m_ScaleFactor: 1
-  m_ReferenceResolution: {x: 800, y: 600}
-  m_ScreenMatchMode: 0
+  m_ReferenceResolution: {x: 1024, y: 768}
+  m_ScreenMatchMode: 1
   m_MatchWidthOrHeight: 0
   m_PhysicalUnit: 3
   m_FallbackScreenDPI: 96
@@ -370,8 +370,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: x
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 9c5a33bbb2b894340916951879c88ebe, type: 2}
-  m_sharedMaterial: {fileID: 8976611663026531463, guid: 9c5a33bbb2b894340916951879c88ebe, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: d5ed69c65c0054628bfaca75627efd39, type: 2}
+  m_sharedMaterial: {fileID: 290230511226272143, guid: d5ed69c65c0054628bfaca75627efd39, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -473,8 +473,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -5.4517, y: 8.4276}
-  m_SizeDelta: {x: 173.8748, y: 65.4307}
+  m_AnchoredPosition: {x: -9.2, y: 6.2}
+  m_SizeDelta: {x: 173.8748, y: 74.655}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &8748929477974629871
 CanvasRenderer:
@@ -505,19 +505,19 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 12800000, guid: e33572bd200dc4c09b9b47249c87aa0e, type: 2}
-    m_FontSize: 25
+    m_Font: {fileID: 12800000, guid: 84672625fedb64e40a88303b20d98a19, type: 3}
+    m_FontSize: 20
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 0
-    m_MaxSize: 40
+    m_MaxSize: 220
     m_Alignment: 0
     m_AlignByGeometry: 0
     m_RichText: 1
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: '[var:2]'
+  m_Text: "[var:2]\u6687\u306A\u3089\u51FA\u304B\u3051\u305F\u3089\u3069\u3046\u3060\u3044\uFF1F"
 --- !u!114 &2818390464791047768
 MonoBehaviour:
   m_ObjectHideFlags: 0

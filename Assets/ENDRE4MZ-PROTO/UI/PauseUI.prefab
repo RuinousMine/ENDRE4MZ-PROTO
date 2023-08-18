@@ -700,6 +700,7 @@ GameObject:
   - component: {fileID: 11400034}
   - component: {fileID: 22500000}
   - component: {fileID: 11440952}
+  - component: {fileID: 2971280045211924591}
   m_Layer: 5
   m_Name: PauseUI
   m_TagString: Untagged
@@ -819,6 +820,21 @@ MonoBehaviour:
   maxAnchorPoint: {x: 0.5, y: 0.5}
   updatePosition: 1
   updateScale: 1
+--- !u!114 &2971280045211924591
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 100024}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f72e60470f1fa4fd1825cd67ce482cf6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  constantID: 327472
+  retainInPrefab: 1
+  autoManual: 0
 --- !u!1 &159834
 GameObject:
   m_ObjectHideFlags: 0
@@ -2164,11 +2180,23 @@ MonoBehaviour:
     m_PressedTrigger: Pressed
     m_SelectedTrigger: Highlighted
     m_DisabledTrigger: Disabled
-  m_Interactable: 0
+  m_Interactable: 1
   m_TargetGraphic: {fileID: 5930065515151263283}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 11400000, guid: f665d85db896b4ea2ab91a154119b2dd, type: 2}
+        m_TargetAssemblyTypeName: AC.ActionListAsset, Assembly-CSharp
+        m_MethodName: Interact
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &6477681167019482786
 MonoBehaviour:
   m_ObjectHideFlags: 0

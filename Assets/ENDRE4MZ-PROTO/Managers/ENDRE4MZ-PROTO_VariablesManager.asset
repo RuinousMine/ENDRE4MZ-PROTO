@@ -51,9 +51,9 @@ MonoBehaviour:
     popUpID: 0
     textValLineID: -1
     popUpsLineID: -1
-    description: 
+    description: Flag
     showInFilter: 1
-  - label: CharaText
+  - label: EndolphinText
     id: 2
     type: 2
     val: 0
@@ -91,12 +91,12 @@ MonoBehaviour:
     popUpID: 0
     textValLineID: -1
     popUpsLineID: -1
-    description: 
+    description: Glag
     showInFilter: 1
   - label: ListenOtakuConv
     id: 4
     type: 0
-    val: 1
+    val: 0
     floatVal: 0
     textVal: 
     gameObjectVal: {fileID: 0}
@@ -111,7 +111,7 @@ MonoBehaviour:
     popUpID: 0
     textValLineID: -1
     popUpsLineID: -1
-    description: 
+    description: Flag
     showInFilter: 1
   - label: TalktoFortuneTeller
     id: 5
@@ -131,9 +131,9 @@ MonoBehaviour:
     popUpID: 0
     textValLineID: -1
     popUpsLineID: -1
-    description: 
+    description: Flag
     showInFilter: 1
-  - label: GetRealAmulet
+  - label: GetTrueTalisman
     id: 6
     type: 0
     val: 0
@@ -151,10 +151,10 @@ MonoBehaviour:
     popUpID: 0
     textValLineID: -1
     popUpsLineID: -1
-    description: 
+    description: Flag
     showInFilter: 1
-  - label: ReadMailMag
-    id: 7
+  - label: FollowMutaso
+    id: 8
     type: 0
     val: 0
     floatVal: 0
@@ -171,27 +171,7 @@ MonoBehaviour:
     popUpID: 0
     textValLineID: -1
     popUpsLineID: -1
-    description: 
-    showInFilter: 1
-  - label: FollowMutaso
-    id: 8
-    type: 0
-    val: 1
-    floatVal: 0
-    textVal: 
-    gameObjectVal: {fileID: 0}
-    gameObjectSaveReferences: 1
-    objectVal: {fileID: 0}
-    popUps: []
-    vector3Val: {x: 0, y: 0, z: 0}
-    link: 0
-    pmVar: 
-    updateLinkOnStart: 0
-    canTranslate: 1
-    popUpID: 0
-    textValLineID: -1
-    popUpsLineID: -1
-    description: 
+    description: Flag
     showInFilter: 1
   - label: AskShopStaff
     id: 9
@@ -211,7 +191,7 @@ MonoBehaviour:
     popUpID: 0
     textValLineID: -1
     popUpsLineID: -1
-    description: 
+    description: Flag
     showInFilter: 1
   - label: PlayerName
     id: 10
@@ -231,7 +211,7 @@ MonoBehaviour:
     popUpID: 0
     textValLineID: -1
     popUpsLineID: -1
-    description: 
+    description: Name
     showInFilter: 1
   - label: WatchImportantVideo
     id: 11
@@ -251,7 +231,7 @@ MonoBehaviour:
     popUpID: 0
     textValLineID: -1
     popUpsLineID: -1
-    description: 
+    description: Flag
     showInFilter: 1
   - label: AskAboutBoy
     id: 12
@@ -271,7 +251,7 @@ MonoBehaviour:
     popUpID: 0
     textValLineID: -1
     popUpsLineID: -1
-    description: 
+    description: Flag
     showInFilter: 1
   - label: MutasoisAyumu
     id: 13
@@ -291,7 +271,7 @@ MonoBehaviour:
     popUpID: 0
     textValLineID: -1
     popUpsLineID: -1
-    description: 
+    description: Flag
     showInFilter: 1
   - label: AskAboutGirl
     id: 14
@@ -311,7 +291,7 @@ MonoBehaviour:
     popUpID: 0
     textValLineID: -1
     popUpsLineID: -1
-    description: 
+    description: Flag
     showInFilter: 1
   - label: ForwardPage
     id: 15
@@ -331,7 +311,7 @@ MonoBehaviour:
     popUpID: 0
     textValLineID: -1
     popUpsLineID: -1
-    description: 
+    description: Logic
     showInFilter: 1
   - label: ImportantVideoPosted
     id: 16
@@ -351,7 +331,7 @@ MonoBehaviour:
     popUpID: 0
     textValLineID: -1
     popUpsLineID: -1
-    description: 
+    description: Flag
     showInFilter: 1
   - label: 2OMReload
     id: 17
@@ -371,9 +351,316 @@ MonoBehaviour:
     popUpID: 0
     textValLineID: -1
     popUpsLineID: -1
-    description: 
+    description: Logic
+    showInFilter: 1
+  - label: Description
+    id: 18
+    type: 2
+    val: 0
+    floatVal: 0
+    textVal: 
+    gameObjectVal: {fileID: 0}
+    gameObjectSaveReferences: 1
+    objectVal: {fileID: 0}
+    popUps: []
+    vector3Val: {x: 0, y: 0, z: 0}
+    link: 0
+    pmVar: 
+    updateLinkOnStart: 0
+    canTranslate: 1
+    popUpID: 0
+    textValLineID: -1
+    popUpsLineID: -1
+    description: Logic
+    showInFilter: 1
+  - label: ThirdEyesRubGatcha
+    id: 19
+    type: 1
+    val: 0
+    floatVal: 0
+    textVal: 
+    gameObjectVal: {fileID: 0}
+    gameObjectSaveReferences: 1
+    objectVal: {fileID: 0}
+    popUps: []
+    vector3Val: {x: 0, y: 0, z: 0}
+    link: 0
+    pmVar: 
+    updateLinkOnStart: 0
+    canTranslate: 1
+    popUpID: 0
+    textValLineID: -1
+    popUpsLineID: -1
+    description: Logic
+    showInFilter: 1
+<<<<<<< HEAD
+  - label: PushedNumber
+    id: 20
+    type: 2
+    val: 0
+    floatVal: 0
+    textVal: 
+    gameObjectVal: {fileID: 0}
+    gameObjectSaveReferences: 1
+    objectVal: {fileID: 0}
+    popUps: []
+    vector3Val: {x: 0, y: 0, z: 0}
+    link: 0
+    pmVar: 
+    updateLinkOnStart: 0
+    canTranslate: 1
+    popUpID: 0
+    textValLineID: -1
+    popUpsLineID: -1
+    description: Logic
+    showInFilter: 1
+  - label: GiveRubmasBaklo
+    id: 21
+    type: 0
+    val: 0
+    floatVal: 0
+    textVal: 
+    gameObjectVal: {fileID: 0}
+    gameObjectSaveReferences: 1
+    objectVal: {fileID: 0}
+    popUps: []
+    vector3Val: {x: 0, y: 0, z: 0}
+    link: 0
+    pmVar: 
+    updateLinkOnStart: 0
+    canTranslate: 1
+    popUpID: 0
+    textValLineID: -1
+    popUpsLineID: -1
+    description: Flag
+    showInFilter: 1
+  - label: DeclineRubmasBaklo
+    id: 22
+    type: 0
+    val: 0
+    floatVal: 0
+    textVal: 
+    gameObjectVal: {fileID: 0}
+    gameObjectSaveReferences: 1
+    objectVal: {fileID: 0}
+    popUps: []
+    vector3Val: {x: 0, y: 0, z: 0}
+    link: 0
+    pmVar: 
+    updateLinkOnStart: 0
+    canTranslate: 1
+    popUpID: 0
+    textValLineID: -1
+    popUpsLineID: -1
+    description: Flag
+    showInFilter: 1
+  - label: EndolphinTextNum
+    id: 23
+    type: 1
+    val: 0
+    floatVal: 0
+    textVal: 
+    gameObjectVal: {fileID: 0}
+    gameObjectSaveReferences: 1
+    objectVal: {fileID: 0}
+    popUps: []
+    vector3Val: {x: 0, y: 0, z: 0}
+    link: 0
+    pmVar: 
+    updateLinkOnStart: 0
+    canTranslate: 1
+    popUpID: 0
+    textValLineID: -1
+    popUpsLineID: -1
+    description: Logic
+    showInFilter: 1
+  - label: NewMail
+    id: 24
+    type: 1
+    val: 2
+    floatVal: 0
+    textVal: 
+    gameObjectVal: {fileID: 0}
+    gameObjectSaveReferences: 1
+    objectVal: {fileID: 0}
+    popUps: []
+    vector3Val: {x: 0, y: 0, z: 0}
+    link: 0
+    pmVar: 
+    updateLinkOnStart: 0
+    canTranslate: 1
+    popUpID: 0
+    textValLineID: -1
+    popUpsLineID: -1
+    description: Mail, Logic
+    showInFilter: 1
+  - label: Mail1
+    id: 25
+    type: 0
+    val: 0
+    floatVal: 0
+    textVal: 
+    gameObjectVal: {fileID: 0}
+    gameObjectSaveReferences: 1
+    objectVal: {fileID: 0}
+    popUps: []
+    vector3Val: {x: 0, y: 0, z: 0}
+    link: 0
+    pmVar: 
+    updateLinkOnStart: 0
+    canTranslate: 1
+    popUpID: 0
+    textValLineID: -1
+    popUpsLineID: -1
+    description: Mail
+    showInFilter: 1
+  - label: Mail2
+    id: 26
+    type: 0
+    val: 0
+    floatVal: 0
+    textVal: 
+    gameObjectVal: {fileID: 0}
+    gameObjectSaveReferences: 1
+    objectVal: {fileID: 0}
+    popUps: []
+    vector3Val: {x: 0, y: 0, z: 0}
+    link: 0
+    pmVar: 
+    updateLinkOnStart: 0
+    canTranslate: 1
+    popUpID: 0
+    textValLineID: -1
+    popUpsLineID: -1
+    description: Mail
+    showInFilter: 1
+  - label: Mail3
+    id: 28
+    type: 0
+    val: 0
+    floatVal: 0
+    textVal: 
+    gameObjectVal: {fileID: 0}
+    gameObjectSaveReferences: 1
+    objectVal: {fileID: 0}
+    popUps: []
+    vector3Val: {x: 0, y: 0, z: 0}
+    link: 0
+    pmVar: 
+    updateLinkOnStart: 0
+    canTranslate: 1
+    popUpID: 0
+    textValLineID: -1
+    popUpsLineID: -1
+    description: Mail3
+    showInFilter: 1
+  - label: MailMag1
+    id: 27
+    type: 0
+    val: 0
+    floatVal: 0
+    textVal: 
+    gameObjectVal: {fileID: 0}
+    gameObjectSaveReferences: 1
+    objectVal: {fileID: 0}
+    popUps: []
+    vector3Val: {x: 0, y: 0, z: 0}
+    link: 0
+    pmVar: 
+    updateLinkOnStart: 0
+    canTranslate: 1
+    popUpID: 0
+    textValLineID: -1
+    popUpsLineID: -1
+    description: Mail
+    showInFilter: 1
+  - label: FirstLoadBedroom
+    id: 7
+    type: 0
+    val: 0
+    floatVal: 0
+    textVal: 
+    gameObjectVal: {fileID: 0}
+    gameObjectSaveReferences: 1
+    objectVal: {fileID: 0}
+    popUps: []
+    vector3Val: {x: 0, y: 0, z: 0}
+    link: 0
+    pmVar: 
+    updateLinkOnStart: 0
+    canTranslate: 1
+    popUpID: 0
+    textValLineID: -1
+    popUpsLineID: -1
+    description: Logic
+    showInFilter: 1
+  - label: MailWtf1
+    id: 29
+    type: 0
+    val: 0
+    floatVal: 0
+    textVal: 
+    gameObjectVal: {fileID: 0}
+    gameObjectSaveReferences: 1
+    objectVal: {fileID: 0}
+    popUps: []
+    vector3Val: {x: 0, y: 0, z: 0}
+    link: 0
+    pmVar: 
+    updateLinkOnStart: 0
+    canTranslate: 1
+    popUpID: 0
+    textValLineID: -1
+    popUpsLineID: -1
+    description: Mail, Flag
+    showInFilter: 1
+  - label: AnswerInterphone
+    id: 30
+    type: 0
+    val: 0
+    floatVal: 0
+    textVal: 
+    gameObjectVal: {fileID: 0}
+    gameObjectSaveReferences: 1
+    objectVal: {fileID: 0}
+    popUps: []
+    vector3Val: {x: 0, y: 0, z: 0}
+    link: 0
+    pmVar: 
+    updateLinkOnStart: 0
+    canTranslate: 1
+    popUpID: 0
+    textValLineID: -1
+    popUpsLineID: -1
+    description: Flag
+    showInFilter: 1
+  - label: CallCreepy
+    id: 31
+    type: 0
+    val: 0
+    floatVal: 0
+    textVal: 
+    gameObjectVal: {fileID: 0}
+    gameObjectSaveReferences: 1
+    objectVal: {fileID: 0}
+    popUps: []
+    vector3Val: {x: 0, y: 0, z: 0}
+    link: 0
+    pmVar: 
+    updateLinkOnStart: 0
+    canTranslate: 1
+    popUpID: 0
+    textValLineID: -1
+    popUpsLineID: -1
+    description: Flag, Call
     showInFilter: 1
   varPresets: []
   updateRuntime: 1
   popUpLabelData: []
-  scrollPos: {x: 0, y: 39}
+  scrollPos: {x: 0, y: 333}
+=======
+  varPresets: []
+  updateRuntime: 1
+  popUpLabelData: []
+  scrollPos: {x: 0, y: 81}
+>>>>>>> parent of 13390a20 (tenkey)
