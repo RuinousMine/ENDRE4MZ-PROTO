@@ -68,7 +68,7 @@ MonoBehaviour:
   chooseSceneBy: 1
   sceneNumber: 0
   sceneNumberParameterID: -1
-  sceneName: Mitaka
+  sceneName: MitakaStation
   sceneNameParameterID: -1
   assignScreenOverlay: 0
   onlyPreload: 0

@@ -1,6 +1,5 @@
 using System.Diagnostics;
 using UnityEngine;
-using UnityEngine.InputSystem;
 
 [DebuggerDisplay("{" + nameof(GetDebuggerDisplay) + "(),nq}")]
 public class ClickSound : MonoBehaviour
@@ -8,7 +7,7 @@ public class ClickSound : MonoBehaviour
 
     void Update()
     {
-         if(Mouse.current.leftButton.wasPressedThisFrame)
+         if(Input.GetMouseButtonDown(0))
         {
             GetComponent<AudioSource>().Play();
         }

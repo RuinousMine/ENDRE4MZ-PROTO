@@ -15,7 +15,7 @@ MonoBehaviour:
   cursorRendering: 2
   uiCursorPrefab: {fileID: 1233823316936846, guid: 4f08b0bb4ab744221bb2bad0ab4cd341, type: 3}
   cursorDisplay: 0
-  allowMainCursor: 0
+  allowMainCursor: 1
   lockSystemCursor: 1
   keepCursorWithinScreen: 0
   allowWalkCursor: 0
@@ -184,4 +184,4 @@ MonoBehaviour:
   lookUseCursorAction: 0
   lookCursor_ID: 2
   hideCursorWhenDraggingMoveables: 1
-  forceCursorInEditor: 0
+  forceCursorInEditor: 1

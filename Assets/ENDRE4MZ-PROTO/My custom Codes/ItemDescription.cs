@@ -5,7 +5,7 @@ using TMPro;
 public class ItemDescription : MonoBehaviour
 {
 public int invPropertyID = 1; // Set this as appropriate
-public int stringVariableID = 12; // Set this as appropriate
+public int stringVariableID = 7; // Set this as appropriate
 public TextMeshProUGUI inventoryText;
 public string invItemDescription;
 public string inventoryBoxName;
